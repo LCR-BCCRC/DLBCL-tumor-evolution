@@ -1,0 +1,16 @@
+assay	relapse_timing	discordant	n	total_time_point	percent	total_assay
+MYC	Primary Refractory	Concordant	21	25	84	114
+MYC	Primary Refractory	Discordant	4	25	16	114
+MYC	Early Relapse	Concordant	24	25	96	114
+MYC	Early Relapse	Discordant	1	25	4	114
+MYC	Late Relapse	Concordant	55	64	85.94	114
+MYC	Late Relapse	Discordant	9	64	14.06	114
+BCL2	Primary Refractory	Concordant	23	23	100	100
+BCL2	Early Relapse	Concordant	22	22	100	100
+BCL2	Late Relapse	Concordant	55	55	100	100
+BCL6	Primary Refractory	Concordant	20	24	83.33	108
+BCL6	Primary Refractory	Discordant	4	24	16.67	108
+BCL6	Early Relapse	Concordant	21	24	87.5	108
+BCL6	Early Relapse	Discordant	3	24	12.5	108
+BCL6	Late Relapse	Concordant	50	60	83.33	108
+BCL6	Late Relapse	Discordant	10	60	16.67	108

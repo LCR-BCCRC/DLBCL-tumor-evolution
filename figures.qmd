@@ -1,0 +1,442 @@
+---
+geometry: "margin=2.5cm"
+output:
+  pdf_document:
+    toc: no
+    number_sections: no
+header-includes:
+  - \pagenumbering{gobble}
+mainfont: Arial
+---
+
+```{r echo = FALSE}
+
+knitr::opts_chunk$set(
+  echo = FALSE,
+  include = TRUE,
+  warning = FALSE,
+  message = FALSE,
+  error = FALSE
+)
+
+
+```
+
+
+```{r setup_figs}
+
+source("src/libs.R")
+library(magick)
+circos_cols <- readRDS("data/circos_colours.RDS")
+
+make_title <- function(text){
+  ggdraw() +
+  draw_label(
+    text,
+    fontface = 'bold',
+    x = 0,
+    hjust = 0,
+    size = 22
+  ) +
+  theme(
+    # add margin on the left of the drawing canvas,
+    # so title is aligned with left edge of first plot
+    plot.margin = margin(0, 0, 0, 7)
+  )
+}
+
+```
+
+
+```{r}
+#| label: fig-1
+#| fig-width: 14
+#| fig-height: 10
+#| out-width: 100%
+#| out-height: 100%
+
+response <- readRDS("figures/response_barplot.RDS")
+bmt <- readRDS("figures/bmt_barplot.RDS")
+
+legend1 <- cowplot::get_legend(
+  response +
+  theme(
+    legend.position = "right",
+    legend.direction = "vertical"
+  ) +
+  guides(fill = "none")
+)
+legend2 <- cowplot::get_legend(
+  response +
+  theme(
+    legend.position = "right",
+    legend.direction = "vertical"
+  ) +
+  guides(alpha = "none")
+)
+
+legends <- plot_grid(
+  legend1,
+  legend2,
+  NULL,
+  nrow = 1
+)
+
+barplots <- plot_grid(
+  response + theme(legend.position = "none"),
+  legends,
+  bmt + ylab("Received \nHSCT (%)"),
+  ncol = 1,
+  rel_heights = c(1, 0.5, 1),
+  labels = c("A", "",  "B"),
+  label_size = 22,
+  align = "hv",
+  axis = "l"
+)
+# barplots <- plot_grid(
+#   barplots,
+#   legends,
+#   ncol = 2,
+#   rel_widths = c(1, 1)
+# )
+
+# surv <- image_read_pdf("figures/surv_with_tables_edited.pdf", density = 150)
+# surv <- image_ggplot(surv)
+
+surv <- readRDS("figures/surv_with_tables.RDS")
+
+
+pre_fig1 <- plot_grid(
+  barplots,
+  surv,
+  nrow = 1,
+  rel_widths = c(1, 2.4)
+)
+
+fig1_title <- make_title("")
+
+fig1 <- plot_grid(
+  fig1_title,
+  pre_fig1,
+  ncol = 1,
+  rel_heights = c(0.1, 2)
+)
+
+fig1
+
+```
+
+```{r}
+#| label: fig-2
+#| fig-width: 11
+#| fig-height: 13
+#| out-width: \\linewidth
+#| fig-align: center
+#|
+
+swimmer <- image_read_pdf("./figures/swimmer_plot_breaks_edited.pdf",
+density = 300)
+swimmer <- image_ggplot(swimmer, interpolate = TRUE)
+
+
+
+title <- make_title("")
+
+
+fig2 <- plot_grid(
+  title,
+  swimmer,
+  nrow = 3,
+  rel_heights = c(0.05, 1)
+)
+
+fig2
+
+
+```
+
+
+\newpage
+
+```{r}
+#| label: fig-3
+#| fig-width: 12
+#| fig-height: 14
+#| out-width: 100%
+#| out-height: 100%
+#| fig-align: center
+
+total_vs_shared <- readRDS("figures/shared_vs_total.RDS")
+unique_vs_time <- readRDS("figures/percent_unique_linear.RDS")
+
+fig3_ab <- plot_grid(
+  total_vs_shared,
+  unique_vs_time + theme(legend.position = "none"),
+  ncol = 1,
+  labels = c("C", "D"),
+  label_size = 22
+)
+
+oncoplots <- paste0(
+  "figures/oncoplot_",
+  c("Diagnosis", "Shared", "Relapse"),
+  ".pdf"
+)
+oncoplot_list <- lapply(
+  oncoplots,
+  function(x){
+    oncoplot <- image_read_pdf(x)
+    oncoplot <- image_ggplot(oncoplot, interpolate = TRUE)
+    return(oncoplot)
+  }
+)
+
+oncoplots_arranged <- plot_grid(
+  oncoplot_list[[1]],
+  oncoplot_list[[2]],
+  oncoplot_list[[3]],
+  nrow = 1
+)
+
+mixcr_igh <- readRDS("figures/mixcr_heavychain_alluvial.RDS")
+mixcr_lc <- readRDS("figures/mixcr_lightchain_alluvial.RDS")
+
+fig_3de <- plot_grid(
+  plot_grid(NULL, mixcr_igh, NULL, rel_widths = c(0.1, 1, 0.1), nrow = 1),
+  plot_grid(NULL, mixcr_lc, NULL, rel_widths = c(0.1, 1, 0.1), nrow = 1),
+  nrow = 2,
+  labels = c("D", "E"),
+  label_size = 22,
+  align = "hv",
+  axis = "l"
+)
+
+pre_fig3 <- plot_grid(
+  fig3_ab,
+  fig_3de,
+  ncol = 1,
+  rel_heights = c(1.3, 1)
+)
+
+title3 <- make_title("")
+
+fig3 <- plot_grid(
+  title3,
+  pre_fig3,
+  label_size = 22,
+  rel_heights = c(0.05, 1),
+  ncol = 1
+)
+
+fig3
+
+```
+
+
+```{r}
+#| label: fig-4
+#| fig-width: 22
+#| fig-height: 10
+#| out-width: 100%
+#| out-height: 100%
+#| fig-align: center
+
+panel_4a <- readRDS("./figures/fish_pairs.RDS")
+panel_4a <- panel_4a +
+  ylab("Count")
+
+diagnosis_cols <- c("#388697", "#FC5130")
+names(diagnosis_cols) <- c("Diagnosis", "Relapse")
+
+
+svcircos1 <- image_read_pdf("./figures/03-23488-IG-MYC.pdf", density = 300)
+svcircos1 <- image_ggplot(svcircos1, interpolate = TRUE)
+svcircos1 <- svcircos1 +
+  annotate("text",
+           x = c(250, 1000),
+           y = 150,
+           label = c("Diagnosis", "Relapse"),
+           size = 5,
+           fontface = 2,
+           colour = diagnosis_cols)
+
+svcircos2 <- image_read_pdf("./figures/07-25994-IG-MYC.pdf", density = 300)
+svcircos2 <- image_ggplot(svcircos2, interpolate = TRUE)
+svcircos2 <- svcircos2 +
+  annotate("text",
+           x = c(250, 1000),
+           y = 150,
+           label = c("Relapse", "Diagnosis"),
+           size = 5,
+           fontface = 2,
+           colour = diagnosis_cols[c("Relapse", "Diagnosis")])
+
+svpanel <- plot_grid(svcircos1, svcircos2, nrow = 2, label_size = 22)
+
+
+
+panel_4a_b <- plot_grid(
+  panel_4a,
+  svpanel,
+  nrow = 1,
+  labels = c("A", "B"),
+  rel_widths = c(1.8, 1),
+  label_size = 22
+)
+
+coo_alluvial <- readRDS("figures/coo_alluvial.RDS")
+coo_score <- readRDS("figures/coo_score.RDS")
+
+coo_legend <- get_legend(
+  coo_alluvial +
+    theme(
+      legend.position = c(0.35, 0),
+      legend.direction = "horizontal",
+      legend.margin = margin(0,0,40,0)
+    )
+)
+
+coo_score <- coo_score + theme(panel.spacing = unit(2, "lines"))
+
+lg_panel <- readRDS("figures/lymphgen_comparison.RDS")
+lg_panel <- lg_panel +
+  ylab("Count") +
+  theme(legend.position = "bottom",
+        legend.direction = "horizontal")
+
+# shared_muts_panel <- readRDS("figures/percent_unique_boxplot_wide.RDS")
+
+fig4_title <- make_title("")
+
+panel_4cde <- plot_grid(
+  coo_alluvial + theme(legend.position = "none"),
+  coo_legend,
+  coo_score,
+  lg_panel,
+  # shared_muts_panel,
+  labels = c("C", "", "D", "E"),
+  ncol = 1,
+  rel_heights = c(1, 0.1, 1, 1.2),
+  label_size = 22,
+  align = "v",
+  axis = "l"
+)
+
+fig4 <- plot_grid(
+  panel_4a_b,
+  panel_4cde,
+  rel_widths = c(1.5,1),
+  ncol = 2
+)
+
+fig4
+
+```
+
+\newpage
+
+```{r}
+#| label: fig-5
+#| fig-width: 10
+#| fig-height: 12
+#| out-width: 100%
+#| out-height: 100%
+
+patients <- c(
+  "16-27074",
+  "14-20552",
+  "01-14774",
+  "03-23488",
+  "06-11677"
+)
+
+plot_dir <- "figures/phyclone_plots_lymphgen_lst_callable_indels/"
+
+plot_list <- lapply(
+  patients,
+  function(x){
+    loaded <- image_read_pdf(dir(plot_dir, pattern = x, full.names = TRUE))
+    ggplot <- image_ggplot(loaded, interpolate = TRUE)
+    return(ggplot)
+  }
+)
+
+fig5_title <- make_title("")
+
+pre_fig5 <- plot_grid(
+  plotlist = plot_list,
+  ncol = 1,
+  labels = c(
+    "A", "B", "C", "D", "E"
+  ),
+  label_size = 22
+)
+
+plot_grid(
+  fig5_title,
+  pre_fig5,
+  ncol = 1,
+  rel_heights = c(0.05, 1)
+)
+
+```
+
+\newpage
+
+```{r}
+#| label: fig-6
+#| fig-width: 15
+#| fig-height: 11
+#| out-width: 100%
+#| out-height: 100%
+
+
+trunk_vs_unique <- readRDS("figures/clonal_features.RDS") +
+scale_y_continuous(breaks = scales::breaks_pretty(2))
+constrained <- readRDS("figures/constrained_features.RDS")+
+scale_y_continuous(breaks = scales::breaks_pretty(2))
+
+panel_6ab <- plot_grid(
+  trunk_vs_unique,
+  constrained,
+  ncol = 1,
+  labels = c("A", "B"),
+  label_size = 22
+)
+
+lowgrade <- readRDS("figures/lg_vs_lowgrade_entity.RDS")
+lowgrade <- lowgrade +
+theme(legend.position = c(0.75, 0.75))
+
+model <- image_read_pdf("figures/DLBCL Evolution Model.pdf", density = 150)
+model <- image_ggplot(model, interpolate = TRUE)
+
+panel_6cd <- plot_grid(
+  lowgrade,
+  plot_grid(NULL, model, NULL, rel_widths = c(0.1, 1, 0.1), nrow = 1),
+  ncol = 1,
+  labels = c("C", "D"),
+  label_size = 22
+)
+
+pre_fig6 <- plot_grid(
+  panel_6ab,
+  panel_6cd,
+  nrow = 1,
+  rel_widths = c(1, 0.8)
+)
+
+title6 <- make_title("")
+
+fig6 <- plot_grid(
+  title6,
+  pre_fig6,
+  ncol = 1,
+  rel_heights = c(0.05, 1)
+)
+
+fig6
+
+```
+
+

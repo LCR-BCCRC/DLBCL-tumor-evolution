@@ -1,0 +1,30 @@
+.Rproj.user
+.RData
+.Rhistory
+.DS_Store
+.snakemake
+Notes.txt
+
+
+# Large files
+data/phyclone/phyclone_mafs.tsv
+data/maf/genomes_augmented.grch37.maf
+scratch
+
+figures/phyclone_plots_excluded
+
+
+# Quarto
+/.quarto/
+*_cache
+*_files
+*_figures
+!figures_files
+*.tex
+*.spl
+*.log
+*.html
+~$nuscript.docx
+misc/~$nuscript_template.docx
+~$nuscript_template.docx
+supplement_figures/

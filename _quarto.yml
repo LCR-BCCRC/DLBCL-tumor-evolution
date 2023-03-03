@@ -1,0 +1,66 @@
+project:
+  type: book
+  
+book:
+  chapters:
+    - index.qmd
+    - manuscript.qmd
+    - online_methods.qmd
+    - references.qmd
+
+format:
+  pdf:
+    toc: false
+    geometry:
+      - top=25mm
+      - bottom=25mm
+      - right=25mm
+      - left=25mm
+      - footskip=15mm
+    linestretch: 1.5
+    mainfont: Arial
+    sansfont: Arial
+    fontsize: 12pt
+    extra_dependencies: ["float"]
+    include-in-header:
+      text: |
+       \usepackage[format=plain,labelfont={bf},labelsep=period,justification=raggedright]{caption}
+       \usepackage[hyperref=false,backref=false]{biblatex}
+       \usepackage{lineno}
+       \usepackage[none]{hyphenat}
+    include-before-body: 
+      text: | 
+        \raggedright
+  docx:
+    toc: false
+    geometry:
+      - top=25mm
+      - bottom=25mm
+      - right=25mm
+      - left=25mm
+      - footskip=15mm
+    extra_dependencies: ["float"]
+    include-in-header:
+      text: |
+       \usepackage[format=plain,labelfont={bf},labelsep=period]{caption}
+       \usepackage[hyperref=false,backref=false]{biblatex}
+    reference-doc: misc/manuscript_template.docx
+    mainfont: Arial
+    sansfont: Arial
+
+bibliography: [references/library.bib, references/morinlab.bib]
+csl: references/nature-medicine.csl
+mainfont: Arial
+sansfont: Arial
+
+editor:
+  render-on-save: false
+
+execute:
+  echo: false
+  include: true
+  warning: false
+  message: false
+  error: false
+  cache: false
+

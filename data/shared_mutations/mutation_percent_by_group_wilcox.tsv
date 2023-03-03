@@ -1,0 +1,13 @@
+time_point	metric	.y.	group1	group2	n1	n2	statistic	p	p.adj	p.adj.signif	y.position	groups
+Diagnosis	All	unique_muts_percent	Primary Refractory	Early Relapse	12	17	37	0.004	0.004	**	109.928	
+Diagnosis	All	unique_muts_percent	Primary Refractory	Late Relapse	12	38	18	2.56e-8	7.68e-8	***	126.02	
+Diagnosis	All	unique_muts_percent	Early Relapse	Late Relapse	17	38	91.5	2.58e-5	3.87e-5	***	142.112	
+Relapse	All	unique_muts_percent	Primary Refractory	Early Relapse	12	17	24	2.56e-4	3.84e-4	***	109.628	
+Relapse	All	unique_muts_percent	Primary Refractory	Late Relapse	12	38	15	1.38e-6	4.14e-6	***	125.72	
+Relapse	All	unique_muts_percent	Early Relapse	Late Relapse	17	38	158	0.003	0.003	**	141.812	
+Diagnosis	Coding	unique_muts_percent	Primary Refractory	Early Relapse	13	18	51	0.009	0.009	**	110.32799999999999	
+Diagnosis	Coding	unique_muts_percent	Primary Refractory	Late Relapse	13	41	25	1.08e-6	3.24e-6	***	126.41999999999999	
+Diagnosis	Coding	unique_muts_percent	Early Relapse	Late Relapse	18	41	93	5.75e-6	8.62e-6	***	142.512	
+Relapse	Coding	unique_muts_percent	Primary Refractory	Early Relapse	13	18	37	0.001	0.002	**	110.228	
+Relapse	Coding	unique_muts_percent	Primary Refractory	Late Relapse	13	41	25	1.57e-8	4.71e-8	***	126.32	
+Relapse	Coding	unique_muts_percent	Early Relapse	Late Relapse	18	41	178	0.002	0.002	**	142.41199999999998	

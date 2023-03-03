@@ -1,0 +1,185 @@
+patient_id	seq_type	trio_type	num_tumours	num_normals	num_pending	relapse_timing	time_points	path_list	times
+00-14595	genome	DLBCL	4	1	0	Late	D,A,B,C	FL,COMFL,COMFL,DLBCL	0,2.1,3.3,4.5
+00-15201	genome	DLBCL	2	1	0	Late	A,B	DLBCL,DLBCL	0,12.9
+00-16220	genome	unknown	1	1	0	Diagnostic	B	FL	0
+00-22011	capture	unknown	1	0	0	Diagnostic	B	DLBCL	0
+00-23442	genome	DLBCL	2	1	0	Late	A,B	DLBCL,DLBCL	0,5.7
+00-26427	genome	DLBCL	2	1	0	Late	A,C	DLBCL,DLBCL	0,3.5
+00-28588	genome	unknown	1	1	0	Diagnostic	C	FL	0
+01-12047	genome	DLBCL	3	1	0	Late	A,B,C	COMFL,DLBCL,DLBCL	0,3.6,4.1
+01-14774	genome	DLBCL	2	1	0	Late	A,B	DLBCL,DLBCL	0,6.7
+01-16433	genome	DLBCL	3	1	0	Late	C,A,B	FL,DLBCL,DLBCL	0,8.6,9.3
+01-23117	genome	DLBCL	2	1	0	Late	A,B	DLBCL,DLBCL	0,10.4
+01-23573	genome	pFL	2	1	0	Late	A,B	FL,FL	0,6.1
+01-23942	genome	DLBCL	2	1	0	Early	A,B	DLBCL,DLBCL	0,1.8
+01-28152	genome	DLBCL	2	1	0	Late	A,B	DLBCL,DLBCL	0,3.9
+02-11368	genome	pFL	2	1	0	Late	A,B	FL,FL	0,8.9
+02-11616	capture	unknown	1	1	0	Diagnostic	A	DLBCL	0
+02-14764	genome	pFL	2	1	0	Late	A,B	FL,FL	0,8.8
+02-15630	genome	DLBCL	2	1	0	Late	A,B	DLBCL,DLBCL	0,6.1
+02-15745	genome	DLBCL	4	1	0	Late	A,B,C,D	NS1,FL,DLBCL,DLBCL	0,2.7,4.4,9
+02-17305	capture	DLBCL	2	0	0	Late	A,B	DLBCL,DLBCL	0,6.1
+02-18356	genome	DLBCL	2	1	0	Early	A,B	DLBCL,DLBCL	0,1
+02-24492	genome	DLBCL	2	1	0	Late	A,B	DLBCL,COMFL	0,4.3
+02-28397	genome	DLBCL	2	1	0	Late	A,B	DLBCL,DLBCL	0,7
+03-10440	genome	DLBCL	2	1	0	Early	A,B	DLBCL,DLBCL	0,0.9
+03-19103	genome	DLBCL	2	1	0	Primary Refractory	A,B	COMFL,DLBCL	0,0.4
+03-19969	capture	unknown	1	0	0	Diagnostic	B	DLBCL	0
+03-23488	capture	unknown	1	0	0	Diagnostic	A	DLBCL	0
+03-23488	genome	DLBCL	2	1	0	Late	A,B	DLBCL,DLBCL	0,11.5
+03-24364	genome	pFL	2	1	0	Late	A,B	FL,FL	0,8.6
+03-28283	genome	pFL	2	1	0	Late	A,B	FL,FL	0,6.7
+03-31822	genome	pFL	2	1	0	Early	A,B	FL,FL	0,1.6
+03-33266	genome	DLBCL	2	1	0	Late	A,B	DLBCL,DLBCL	0,8
+04-11038	capture	DLBCL	2	1	0	Late	A,B	DLBCL,DLBCL	0,14.2
+04-13783	capture	unknown	1	1	0	Diagnostic	B	DLBCL	0
+04-14066	genome	DLBCL	2	1	0	Late	A,B	DLBCL,DLBCL	0,2.5
+04-14093	genome	DLBCL	2	1	0	Late	A,B	DLBCL,DLBCL	0,3.5
+04-16803	genome	tFL	2	1	0	Late	A,B	FL,DLBCL	0,5.7
+04-21622	genome	tFL	2	1	1	Primary Refractory	A,B	FL,DLBCL	0,0.8
+04-21856	genome	DLBCL	2	1	0	Late	A,B	DLBCL,DLBCL	0,7.8
+04-24061	genome	DLBCL	2	1	0	Late	A,B	DLBCL,DLBCL	0,3.9
+04-32952	genome	tFL	2	1	0	Late	A,C	FL,DLBCL	0,2.1
+04-37629	genome	pFL	2	1	0	Late	B,D	FL,FL	0,8.5
+04-38564	genome	pFL	2	1	0	Late	A,B	FL,FL	0,3.7
+05-11115	genome	pFL	5	1	0	Late	A,B,C,D,E	FL,FL,FL,FL,FL	0,10.3,10.9,11.1,13.3
+05-11725	genome	pFL	2	1	0	Late	A,B	FL,FL	0,3.1
+05-12963	genome	tFL	2	1	0	Late	A,B	FL,DLBCL	0,6.3
+05-15635	capture	unknown	1	0	0	Diagnostic	A	DLBCL	0
+05-15635	genome	DLBCL	2	1	0	Late	A,B	DLBCL,DLBCL	0,14
+05-16093	genome	pFL	2	1	0	Late	A,B	FL,FL	0,6
+05-20180	genome	pFL	2	1	0	Late	A,B	FL,FL	0,13.3
+05-27675	genome	tFL	2	1	0	Early	A,B	FL,DLBCL	0,1.2
+05-28122	capture	unknown	1	0	1	Diagnostic	A	DLBCL	0
+05-28753	genome	unknown	3	1	0	Primary Refractory	A,B,C	CLL,DLBCL,CLL	0,0,0.7
+05-32150	genome	DLBCL	2	1	0	Primary Refractory	A,B	DLBCL,DLBCL	0,0.5
+06-11677	genome	DLBCL	2	1	0	Late	A,B	DLBCL,DLBCL	0,7.3
+06-16041	capture	DLBCL	2	1	0	Early	A,B	DLBCL,DLBCL	0,1.1
+06-18449	genome	tFL	2	1	0	Late	A,B	FL,DLBCL	0,8.5
+06-20952	genome	pFL	2	1	0	Late	A,B	FL,FL	0,7.4
+06-22027	genome	pFL	2	1	0	Late	A,B	FL,FL	0,12.2
+06-22314	genome	DLBCL	2	1	0	Early	A,B	DLBCL,DLBCL	0,1.6
+06-24255	capture	unknown	1	0	1	Diagnostic	A	DLBCL	0
+06-24255	genome	DLBCL	3	1	0	Late	B,C,D	COMFL,DLBCL,DLBCL	2,6.1,9
+06-28477	genome	unknown	1	1	0	Diagnostic	A	FL	0
+06-29769	genome	tFL	2	1	0	Late	A,B	FL,DLBCL	0,4.4
+07-21038	genome	unknown	1	1	0	Diagnostic	A	FL	0
+07-24757	capture	unknown	1	1	0	Diagnostic	B	DLBCL	0
+07-25994	genome	DLBCL	3	1	0	Late	A,B,C	COMFL,FL,DLBCL	0,3.4,4.3
+07-27381	genome	tFL	3	1	0	Late	A,B,C	FL,FL,COMFL	0,3.8,5.6
+07-28447	capture	unknown	1	0	1	Diagnostic	A	DLBCL	0
+07-31737	genome	pFL	2	1	0	Late	A,B	FL,FL	0,9.4
+07-32561	genome	DLBCL	2	1	0	Late	A,B	COMFL,DLBCL	0,5.4
+07-34377	genome	pFL	2	1	0	Early	A,B	FL,FL	0,1.4
+07-40648	capture	unknown	1	0	0	Late	B	DLBCL	3.5
+07-40648	genome	DLBCL	2	1	0	Late	A,B	DLBCL,DLBCL	0,3.5
+07-41887	genome	DLBCL	2	1	0	Late	A,B	DLBCL,DLBCL	0,5.6
+08-10249	genome	DLBCL	2	1	0	Late	A,B	DLBCL,DLBCL	0,2.2
+08-11502	genome	pFL	2	1	0	Late	A,B	FL,FL	0,7.6
+08-15460	genome	DLBCL	2	1	0	Primary Refractory	A,B	DLBCL,DLBCL	0,0.8
+08-17645	genome	DLBCL	2	1	0	Early	A,B	DLBCL,DLBCL	0,1.4
+08-24058	capture	DLBCL	3	1	0	Late	A,B,C	DLBCL,DLBCL,DLBCL	0,2.5,6.7
+08-26563	capture	unknown	1	0	0	Late	B	DLBCL	10
+08-26563	genome	DLBCL	2	1	0	Late	A,B	COMFL,DLBCL	0,10
+08-29440	genome	DLBCL	2	1	0	Late	A,B	DLBCL,DLBCL	0,3.3
+09-15148	genome	pFL	2	1	0	Primary Refractory	A,B	FL,FL	0,0.7
+09-15842	capture	unknown	1	0	0	Primary Refractory	B	DLBCL	0.6
+09-15842	genome	DLBCL	2	1	0	Primary Refractory	A,B	DLBCL,DLBCL	0,0.6
+09-20212	genome	pFL	2	1	0	Late	A,B	FL,FL	0,6.2
+09-27866	genome	tFL	2	1	0	Late	A,B	FL,DLBCL	0,4.1
+09-31008	genome	DLBCL	2	1	0	Early	A,B	DLBCL,DLBCL	0,1.5
+09-31601	genome	DLBCL	2	1	0	Late	A,B	DLBCL,DLBCL	0,4.2
+09-32452	capture	DLBCL	2	1	0	Late	A,B	DLBCL,COMFL	0,6.9
+09-33003	genome	DLBCL	2	2	0	Early	A,B	DLBCL,DLBCL	0,0.9
+09-40006	capture	unknown	1	0	1	Diagnostic	A	DLBCL	0
+10-11584	genome	DLBCL	2	1	0	Late	A,B	DLBCL,DLBCL	0,7.4
+10-11741	genome	tFL	2	1	0	Late	A,B	FL,DLBCL	0,6.9
+10-13016	genome	pFL	2	1	0	Late	A,B	FL,FL	0,6.7
+10-19659	capture	unknown	1	0	1	Diagnostic	A	DLBCL	0
+10-30256	capture	unknown	1	0	0	Diagnostic	A	DLBCL	0
+10-36955	genome	DLBCL	4	1	0	Late	C,D,A,B	FL,FL,DLBCL,DLBCL	0,5.9,6.8,7.2
+10-39294	genome	DLBCL	2	1	0	Late	A,B	DLBCL,DLBCL	0,4.3
+11-12873	genome	pFL	3	1	0	Late	A,B,C	FL,FL,FL	0,1.4,4.6
+11-13204	genome	DLBCL	2	1	0	Late	A,B	DLBCL,DLBCL	0,5.7
+11-22591	genome	tFL	2	1	0	Late	A,B	FL,DLBCL	0,4.4
+11-31342	capture	DLBCL	3	1	0	Late	A,B,C	DLBCL,DLBCL,DLBCL	0,1.6,2.8
+12-11721	genome	tFL	2	1	0	Primary Refractory	A,B	FL,DLBCL	0,0.5
+12-17272	genome	DLBCL	2	1	0	Late	A,B	DLBCL,DLBCL	0,4
+12-23835	genome	pFL	3	1	1	Late	A,B,C	FL,FL,FL	0,1.7,5.2
+12-35317	genome	unknown	1	1	0	Diagnostic	C	FL	0
+12-38161	genome	tFL	2	1	0	Late	A,B	FL,HGBL	0,5.6
+13-12884	genome	pFL	2	1	0	Late	A,B	FL,FL	0,4.9
+13-26426	genome	pFL	2	1	0	Late	A,B	FL,FL	0,2
+13-26835	genome	DLBCL	4	1	0	Late	A,B,C,D	DLBCL,DLBCL,MZL,DLBCL	0,4.9,8.2,8.3
+13-27960	genome	unknown	1	1	0	Diagnostic	B	FL	0
+13-27975	genome	pFL	2	1	0	Early	A,B	FL,FL	0,1.1
+13-38657	genome	DLBCL	2	1	0	Primary Refractory	A,B	DLBCL,DLBCL	0,0.7
+14-10498	capture	DLBCL	2	1	0	Early	A,B	DLBCL,DLBCL	0,1
+14-10498	genome	DLBCL	2	1	0	Early	A,B	DLBCL,DLBCL	0,1
+14-11465	genome	pFL	2	1	0	Late	A,B	FL,FL	0,2.7
+14-11777	genome	unknown	1	1	0	Diagnostic	B	FL	0
+14-19181	capture	DLBCL	2	1	0	Late	A,B	DLBCL,DLBCL	0,3.1
+14-20552	genome	DLBCL	2	1	0	Early	A,B	DLBCL,DLBCL	0,1.6
+14-24534	genome	DLBCL	2	1	0	Primary Refractory	A,B	COMFL,DLBCL	0,0.3
+14-24648	genome	DLBCL	2	1	0	Primary Refractory	A,B	DLBCL,DLBCL	0,0.7
+14-26042	genome	unknown	1	1	0	Diagnostic	A	FL	0
+14-26768	genome	pFL	3	1	0	Late	A,B,C	FL,FL,FL	0,3,4.2
+14-27873	capture	DLBCL	3	1	0	Late	A,B,C	DLBCL,DLBCL,DLBCL	0,0.1,3.2
+14-29443	genome	DLBCL	2	1	0	Early	A,B	DLBCL,DLBCL	0,1.9
+14-29644	genome	unknown	1	1	0	Diagnostic	B	FL	0
+14-33798	genome	DLBCL	2	1	0	Late	A,B	DLBCL,DLBCL	0,4.5
+14-35472	genome	DLBCL	2	1	0	Early	A,B	DLBCL,DLBCL	0,1.5
+14-37865	genome	unknown	1	1	0	Diagnostic	B	FL3B	0
+15-13383	genome	unknown	1	1	0	Diagnostic	B	DLBCL	0
+15-19492	genome	pFL	2	1	1	Early	A,B	FL,FL	0,1.5
+15-20985	genome	pFL	3	1	1	Late	A,B,C	FL,FL,FL	0,1.6,2.1
+15-21665	capture	unknown	1	0	0	Late	B	DLBCL	3.1
+15-21665	genome	DLBCL	2	1	0	Late	A,B	DLBCL,DLBCL	0,3.1
+15-34554	genome	pFL	3	1	0	Late	A,B,C	FL,FL,FL	0,1.6,2.2
+16-12281	genome	unknown	1	1	0	Early	B	DLBCL	1.9
+16-22216	capture	DLBCL	2	1	0	Late	A,B	DLBCL,DLBCL	0,2.2
+16-27074	genome	DLBCL	2	1	0	Primary Refractory	A,B	DLBCL,DLBCL	0,0.5
+16-30371	genome	unknown	1	1	0	Diagnostic	B	FL	0
+16-32248	capture	unknown	1	0	0	Diagnostic	A	DLBCL	0
+16-32248	genome	DLBCL	2	1	0	Early	A,B	DLBCL,DLBCL	0,1.1
+16-37587	genome	unknown	1	1	0	Diagnostic	B	DLBCL	0
+16-43083	capture	unknown	1	1	0	Diagnostic	B	DLBCL	0
+16-43741	capture	unknown	1	1	0	Diagnostic	A	DLBCL	0
+16-43741	genome	DLBCL	2	1	0	Late	A,B	DLBCL,HGBL	0,3.4
+17-16667	capture	unknown	1	1	0	Diagnostic	A	DLBCL	0
+17-23711	genome	DLBCL	2	1	0	Primary Refractory	A,B	DLBCL,DLBCL	0,0.2
+17-33596	genome	DLBCL	2	1	0	Early	A,B	DLBCL,DLBCL	0,1
+17-33848	genome	tFL	2	1	0	Diagnostic	B,A	DLBCL,FL	0,0
+17-36275	genome	unknown	1	1	0	Early	B	DLBCL	0.9
+17-40409	genome	DLBCL	2	1	0	Primary Refractory	A,B	DLBCL,DLBCL	0,0.6
+17-45529	genome	DLBCL	2	1	0	Early	A,B	DLBCL,DLBCL	0,1.5
+18-12910	capture	unknown	1	1	0	Diagnostic	A	DLBCL	0
+18-14625	genome	DLBCL	2	1	0	Early	A,B	DLBCL,DLBCL	0,1.4
+18-19313	genome	DLBCL	2	1	0	Primary Refractory	A,B	DLBCL,DLBCL	0,0.7
+18-36878	genome	tFL	2	1	0	Primary Refractory	A,B	FL,DLBCL	0,0.2
+19-13976	genome	DLBCL	2	1	0	Primary Refractory	A,B	DLBCL,DLBCL	0,0.8
+19-16466	genome	DLBCL	2	1	0	Early	A,B	DLBCL,COMFL	0,0.9
+19-25121	genome	unknown	2	1	0	Primary Refractory	A,B	DLBCL,PMBCL	0,0.6
+75-10141	capture	DLBCL	2	0	0	Late	A,B	DLBCL,DLBCL	0,3.6
+75-61923	genome	pFL	2	1	0	Late	A,B	FL,FL	0,2.9
+76-10146	genome	DLBCL	2	1	0	Late	A,B	DLBCL,DLBCL	0,2.8
+82-16695	genome	pFL	2	1	2	Late	A,B	FL,FL	0,2.3
+83-55624	genome	pFL	2	1	1	Late	A,B	FL,FL	0,2.6
+86-30788	capture	DLBCL	2	0	0	Primary Refractory	A,B	DLBCL,DLBCL	0,0.6
+92-38267	genome	DLBCL	2	1	0	Late	A,B	DLBCL,DLBCL	0,5.5
+92-38626	genome	DLBCL	2	1	0	Primary Refractory	A,B	DLBCL,DLBCL	0,0.4
+92-67666	genome	pFL	2	1	1	Late	A,B	FL,FL	0,2.3
+94-15772	genome	DLBCL	2	1	0	Late	A,B	DLBCL,DLBCL	0,3.2
+94-25764	genome	DLBCL	2	1	0	Early	A,B	COMFL,DLBCL	0,1
+95-32141	genome	DLBCL	2	1	0	Late	A,B	DLBCL,DLBCL	0,4.2
+97-15189	capture	unknown	1	0	1	Diagnostic	A	DLBCL	0
+97-18502	genome	DLBCL	2	1	0	Late	A,B	DLBCL,DLBCL	0,7.4
+97-28459	genome	pFL	3	1	0	Late	B,C,D	FL,FL,FL	0,9.8,11.6
+98-30186	genome	pFL	3	1	0	Late	A,B,C	FL,FL,FL	0,13.3,14.9
+99-21785	genome	pFL	2	1	0	Primary Refractory	A,B	FL,FL	0,0.6
+99-27783	genome	pFL	2	1	0	Late	A,B	FL,FL	0,2.6
+LY_RELY_028	genome	unknown	2	1	0	Primary Refractory	A,B	HGBL,BLL	0,0.3
+LY_RELY_109	genome	DLBCL	2	1	0	Late	A,B	HGBL,DLBCL	0,6.3
+LY_RELY_116	genome	DLBCL	2	1	0	Late	A,B	DLBCL,COMFL	0,5.5
+LY_RELY_121	genome	DLBCL	2	1	0	Late	A,B	HGBL,HGBL	0,2.2
+LY_RELY_128	genome	DLBCL	2	1	0	Late	A,B	DLBCL,DLBCL	0,5.8

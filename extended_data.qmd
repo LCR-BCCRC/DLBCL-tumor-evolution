@@ -1,0 +1,237 @@
+---
+crossref:
+    fig-title: Extended Data Figure
+format:
+  pdf:
+    toc: false
+    geometry:
+      - top=30mm
+      - bottom=30mm
+      - right=30mm
+      - left=30mm
+      - footskip=15mm
+    linestretch: 1.5
+    mainfont: Arial
+    sansfont: Arial
+    fontsize: 12pt
+    extra_dependencies: ["float"]
+    include-in-header:
+      text: |
+        \usepackage[format=plain,labelfont={bf},labelsep=period,justification=raggedright]{caption}
+        \usepackage[hyperref=false,backref=false]{biblatex}
+        \pagenumbering{gobble}
+
+mainfont: Arial
+sansfont: Arial
+
+editor:
+  render-on-save: false
+
+execute:
+  echo: false
+  include: true
+  warning: false
+  message: false
+  error: false
+  cache: false
+
+---
+
+## Extended Data {.unnumbered}
+
+```{r}
+
+knitr::opts_chunk$set(
+  echo = FALSE,
+  include = TRUE,
+  warning = FALSE,
+  message = FALSE,
+  error = FALSE,
+  fig.pos = "H",
+  out.extra = ""
+)
+
+
+```
+
+
+```{r setup_figs}
+
+source("src/libs.R")
+library(magick)
+circos_cols <- readRDS("data/circos_colours.RDS")
+
+make_title <- function(text){
+  ggdraw() +
+  draw_label(
+    text,
+    fontface = 'bold',
+    x = 0,
+    hjust = 0,
+    size = 18
+  ) +
+  theme(
+    # add margin on the left of the drawing canvas,
+    # so title is aligned with left edge of first plot
+    plot.margin = margin(0, 0, 0, 7)
+  )
+}
+
+```
+
+
+```{r}
+#| label: fig-S1
+#| fig-width: 5
+#| fig-height: 7
+#| out-width: \\linewidth
+#| fig-align: center
+#| fig-cap: Hazard ratios and P-values from Cox models of OS and PFS from time of progression or time of transplant, adjusted for age at diagnosis, sex, and IPI at relapse.
+
+forestplot <- image_read_pdf("figures/surv_forestplot_adjusted.pdf")
+forestplot <- image_ggplot(forestplot, interpolate = TRUE)
+
+forestplot
+
+
+```
+
+\newpage
+
+```{r}
+#| label: fig-S2
+#| fig-width: 6
+#| fig-height: 5
+#| out-width: \\linewidth
+#| fig-align: center
+#| fig-cap: UpSet plot summarizing assays completed on multiple biopsies per patient.
+
+upsetplot <- image_read_pdf("figures/assay_upset_plot.pdf")
+upsetplot <- image_ggplot(upsetplot, interpolate = TRUE)
+
+upsetplot
+
+
+```
+
+\newpage
+
+```{r}
+#| label: fig-S3
+#| fig-width: 10
+#| fig-height: 10
+#| out-width: \\linewidth
+#| fig-align: center
+#| fig-cap: A. Raw coverage estimate, mean corrected coverage (not double-counting overlapping reads), and mean depth across each variant position across relapse timing categories. * P < 0.05; ** P < 0.01; ns not significant. B. Coverage vs. total mutation burden for exomes ("capture") and genomes. R represents Pearson correlation coefficient.
+
+qc_boxplots <- readRDS("./figures/qc_boxplots.RDS")
+qc_boxplots <- qc_boxplots + ylim(0, 175) + scale_y_continuous(breaks = c(0, 25, 50, 75, 100, 125))
+
+cov_muts <- image_read_pdf("./figures/coverage_vs_mutations.pdf", density = 300)
+cov_muts <- image_ggplot(cov_muts, interpolate = TRUE)
+
+
+plot_grid(
+    qc_boxplots, cov_muts, nrow = 2, labels = c("A", "B"), label_size = 22
+)
+
+```
+
+\newpage
+
+```{r}
+#| label: fig-S4
+#| fig-width: 10
+#| fig-height: 5
+#| out-width: \\linewidth
+#| fig-align: center
+#| fig-cap: A. Mean corrected coverage across capture space for the LySeqST assay stratified by relapse timing category. * P < 0.05; ** P < 0.01; ns not significant. B. VAFs of variants identified with the LySeqST assay, stratified by whether or not a variant was called in the matching WGS data. Lower VAFs of variants not detected by WGS supports that LySeqST has enhanced sensitivity for sub-clonal variants that fall below the limit of detection of WGS.
+
+
+qc <- image_read_pdf("./figures/lst_qc.pdf", density = 300)
+qc <- image_ggplot(qc)
+
+sensitivity <- image_read_pdf("./figures/lyseq_vaf_violin_sensitivity.pdf")
+sensitivity <- image_ggplot(sensitivity)
+
+
+plot_grid(
+    qc, sensitivity, nrow = 1, labels = c("A", "B"), label_size = 22
+)
+
+```
+
+\newpage
+
+```{r}
+#| label: fig-S5
+#| fig-width: 9
+#| fig-height: 9
+#| out-width: \\linewidth
+#| fig-align: center
+#| fig-cap: A. Percent exclusive variants per biopsy vs. relapse timing as a categorical variable. *** P < 0.001, ** P < 0.01, * P < 0.05. B. Correlation of percent exclusive variants with relapse timing, stratified by whether or not a patient ever had indolent disease. R represents Pearson corrrelation coefficient.
+
+
+pct_unique <- readRDS("./figures/percent_unique_boxplot.RDS")
+
+pct_unique + ylab("Exclusive Variants (%)")
+
+```
+
+\newpage
+
+```{r}
+#| label: fig-S6
+#| fig-width: 7
+#| fig-height: 14
+#| out-width: \\linewidth
+#| fig-align: center
+#| fig-cap: Relationship between absolute number of exclusive mutations per biopsy vs. relapse timing as a categorical (A) or continuous (B) variable.
+
+
+count_boxplot <- readRDS("./figures/count_unique_boxplot.RDS")
+
+count_linear <- readRDS("./figures/count_unique_linear.RDS")
+
+
+plot_grid(
+    count_boxplot + ylab("Exclusive Variants"), count_linear + ylab("Exclusive Variants"), nrow = 2, labels = c("A", "B")
+)
+
+```
+
+\newpage
+
+```{r}
+#| label: fig-S7
+#| fig-width: 12
+#| fig-height: 4
+#| out-width: \\linewidth
+#| fig-align: center
+#| fig-cap: Correlation of percent exclusive variants with relapse timing, stratified by whether or not a patient had transformed disease. R represents Pearson corrrelation coefficient.
+
+
+pct_unique_lg <- readRDS("./figures/percent_unique_boxplot_lowgrade.RDS")
+
+pct_unique_lg + ylab("Exclusive Variants (%)")
+
+
+```
+
+```{r}
+#| label: fig-S8
+#| fig-width: 8
+#| fig-height: 7
+#| out-width: \\linewidth
+#| fig-align: center
+#| fig-cap: Comparison of DZsig classifications and scores. A. Alluvial plot highlighting switches from DZsigPOS to NEG or IND with opaque alluvia. B. Comparison of DLBCL90 DZsig scores between biopsies. R represents Pearson correlation. Only tumors classified as GCB or unclassified for COO were included in this analysis.
+
+
+dhitsig <- readRDS("figures/dhitsig_alluvial_score.RDS")
+
+dhitsig
+
+
+```
+
+

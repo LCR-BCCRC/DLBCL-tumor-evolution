@@ -1,0 +1,25 @@
+{
+    "quarto.path": "/home/lhilton/miniconda3/envs/quarto/bin/quarto",
+    "r.rpath.linux": "/gsc/software/linux-x86_64-centos7/R-4.1.3/lib64/R/bin/R",
+    "r.rterm.linux": "/projects/rmorin_scratch/conda_environments/radian/bin/radian", // Use this for Radian with auto completion and nice colours. https://github.com/randy3k/radian
+    // "r.rterm.linux": "/gsc/software/linux-x86_64-centos7/R-4.1.3/lib64/R/bin/R", // Use this for vanilla R term. No auto completion or pretty colours!
+    "r.alwaysUseActiveTerminal": true,
+    "r.rterm.option": [
+        "--no-save",
+        "--no-restore",
+        "--r-binary=/gsc/software/linux-x86_64-centos7/R-4.1.3/lib64/R/bin/R"
+    ],
+    "terminal.integrated.env.linux": {
+        "R_HOME": "/gsc/software/linux-x86_64-centos7/R-4.1.3/lib64/R"
+    },
+    "files.associations": {
+        "*.Rmd": "rmd"
+    },
+    "markdown.preview.fontFamily": "Anonymous",
+    "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+    "editor.formatOnType": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "r.bracketedPaste": true,
+    "editor.rename.enablePreview": false
+}
