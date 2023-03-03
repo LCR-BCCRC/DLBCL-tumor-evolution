@@ -1,0 +1,10 @@
+relapse_timing	ResponseToSalvage	n	percent
+Primary Refractory	CR	5	5.62
+Primary Refractory	PR	24	26.97
+Primary Refractory	Progression	60	67.42
+Early Relapse	CR	11	15.94
+Early Relapse	PR	31	44.93
+Early Relapse	Progression	27	39.13
+Late Relapse	CR	12	30
+Late Relapse	PR	21	52.5
+Late Relapse	Progression	7	17.5

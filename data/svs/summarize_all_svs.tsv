@@ -1,0 +1,240 @@
+patient_id	relapse_timing	sample_ids	seq_type	num_tumours	num_FISH_pos	num_tumours_this_breakpoint	num_unique_breakpoints	FISH	FISH_results	gene	partner	chrom1	start1	end1	chrom2	start2	end2	strand1	strand2
+00-14595	Early Relapse	00-14595_tumorA, 00-14595_tumorB, 00-14595_tumorC, 00-14595_tumorD	genome	4	4	4	1	bcl2_ba	POS, POS, POS, POS	BCL2	IGH	14	106329449	106329450	18	60774579	60774580	+	-
+00-14595	Early Relapse	00-14595_tumorA, 00-14595_tumorB, 00-14595_tumorC, 00-14595_tumorD	genome	4	3	0	0	bcl6_ba	POS, POS, POS, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+00-14595	Early Relapse	00-14595_tumorA, 00-14595_tumorB, 00-14595_tumorC, 00-14595_tumorD	genome	4	0	0	0	myc_ba	NEG, NEG, NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+00-15201	Late Relapse	00-15201_tumorA, 00-15201_tumorB	genome	2	0	0	0	bcl2_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+00-15201	Late Relapse	00-15201_tumorA, 00-15201_tumorB	genome	2	0	0	0	bcl6_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+00-15201	Late Relapse	00-15201_tumorA, 00-15201_tumorB	genome	2	1	0	0	myc_ba	POS, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+00-26427	Late Relapse	00-26427_tumorA, 00-26427_tumorC	genome	2	2	0	0	bcl2_ba	POS, POS	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+00-26427	Late Relapse	00-26427_tumorA, 00-26427_tumorC	genome	2	0	0	0	bcl6_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+00-26427	Late Relapse	00-26427_tumorA, 00-26427_tumorC	genome	2	0	0	0	myc_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+01-14774	Late Relapse	01-14774_tumorA, 01-14774_tumorB	genome	2	0	0	0	bcl2_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+01-14774	Late Relapse	01-14774_tumorA, 01-14774_tumorB	genome	2	2	2	1	bcl6_ba	POS, POS	BCL6	HIST1H2BK	3	187462584	187462585	6	27107408	27107409	+	+
+01-14774	Late Relapse	01-14774_tumorA, 01-14774_tumorB	genome	2	0	0	0	myc_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+01-16433	Primary Refractory	01-16433_tumorB	genome	3	1	1	1	bcl2_ba	NA	BCL2	IGH	14	106329449	106329450	18	60793558	60793559	+	-
+01-16433	Primary Refractory	01-16433_tumorA, 01-16433_tumorC	genome	3	1	0	1	bcl2_ba	POS, NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+01-16433	Primary Refractory	01-16433_tumorA, 01-16433_tumorB, 01-16433_tumorC	genome	3	1	0	0	bcl6_ba	POS, NA, NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+01-16433	Primary Refractory	01-16433_tumorA, 01-16433_tumorB, 01-16433_tumorC	genome	3	0	0	0	myc_ba	NEG, NEG, NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+01-23117	Late Relapse	01-23117_tumorA, 01-23117_tumorB	genome	2	0	0	0	bcl2_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+01-23117	Late Relapse	01-23117_tumorA, 01-23117_tumorB	genome	2	1	0	0	bcl6_ba	NEG, POS	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+01-23117	Late Relapse	01-23117_tumorB	genome	2	1	1	1	myc_ba	POS	MYC	IGH	14	106323835	106323836	8	128749370	128749371	+	-
+01-23117	Late Relapse	01-23117_tumorA	genome	2	1	0	1	myc_ba	NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+01-28152	Late Relapse	01-28152_tumorA, 01-28152_tumorB	genome	2	0	0	0	bcl2_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+01-28152	Late Relapse	01-28152_tumorA, 01-28152_tumorB	genome	2	0	0	0	bcl6_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+01-28152	Late Relapse	01-28152_tumorA, 01-28152_tumorB	genome	2	0	0	0	myc_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+02-15630	Late Relapse	02-15630_tumorA, 02-15630_tumorB	genome	2	0	0	0	bcl2_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+02-15630	Late Relapse	02-15630_tumorA, 02-15630_tumorB	genome	2	0	0	0	bcl6_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+02-15630	Late Relapse	02-15630_tumorA, 02-15630_tumorB	genome	2	0	0	0	myc_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+02-15745	Late Relapse	02-15745_tumorD	genome	4	4	1	1	bcl2_ba	POS	BCL2	IGH	14	106329458	106329459	18	60774482	60774483	+	-
+02-15745	Late Relapse	02-15745_tumorA, 02-15745_tumorB, 02-15745_tumorC	genome	4	4	0	1	bcl2_ba	POS, POS, POS	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+02-15745	Late Relapse	02-15745_tumorA, 02-15745_tumorB, 02-15745_tumorC, 02-15745_tumorD	genome	4	0	0	0	bcl6_ba	NEG, NEG, NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+02-15745	Late Relapse	02-15745_tumorA, 02-15745_tumorB, 02-15745_tumorC, 02-15745_tumorD	genome	4	2	0	0	myc_ba	NEG, NEG, POS, POS	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+02-18356	Early Relapse	02-18356_tumorA, 02-18356_tumorB	genome	2	1	2	1	bcl2_ba	NA, POS	BCL2	IGH	14	106329461	106329462	18	60763957	60763958	+	-
+02-18356	Early Relapse	02-18356_tumorA, 02-18356_tumorB	genome	2	0	0	0	bcl6_ba	NA, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+02-18356	Early Relapse	02-18356_tumorA, 02-18356_tumorB	genome	2	0	0	0	myc_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+02-24492	Late Relapse	02-24492_tumorA, 02-24492_tumorB	genome	2	2	2	1	bcl2_ba	POS, POS	BCL2	IGH	14	106351919	106351920	18	60764809	60764810	-	+
+02-24492	Late Relapse	02-24492_tumorA, 02-24492_tumorB	genome	2	2	2	1	bcl6_ba	POS, POS	BCL6	LRMP	12	25207318	25207319	3	187462524	187462525	+	+
+02-24492	Late Relapse	02-24492_tumorB	genome	2	1	1	1	myc_ba	POS	MYC	IGH	14	106328384	106328387	8	128746623	128746626	+	-
+02-24492	Late Relapse	02-24492_tumorA	genome	2	1	0	1	myc_ba	NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+02-28397	Late Relapse	02-28397_tumorA, 02-28397_tumorB	genome	2	0	0	0	bcl2_ba	NEG, NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+02-28397	Late Relapse	02-28397_tumorA, 02-28397_tumorB	genome	2	0	0	0	bcl6_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+02-28397	Late Relapse	02-28397_tumorA, 02-28397_tumorB	genome	2	0	0	0	myc_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+03-10440	Early Relapse	03-10440_tumorA, 03-10440_tumorB	genome	2	0	0	0	bcl2_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+03-10440	Early Relapse	03-10440_tumorA, 03-10440_tumorB	genome	2	0	0	0	bcl6_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+03-10440	Early Relapse	03-10440_tumorA, 03-10440_tumorB	genome	2	2	2	1	myc_ba	POS, POS	MYC	PRAG1	8	8242664	8242666	8	129194772	129194774	+	+
+03-23488	Late Relapse	03-23488_tumorA, 03-23488_tumorB	genome	2	2	2	1	bcl2_ba	POS, POS	BCL2	IGH	14	106330064	106330065	18	60793570	60793571	+	-
+03-23488	Late Relapse	03-23488_tumorA, 03-23488_tumorB	genome	2	0	0	0	bcl6_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+03-23488	Late Relapse	03-23488_tumorA	genome	2	2	1	2	myc_ba	POS	MYC	IGH	8	128749396	128749479	14	106070968	106071031	+	-
+03-23488	Late Relapse	03-23488_tumorB	genome	2	2	1	2	myc_ba	POS	MYC	IGL	22	23223376	23223543	8	128853939	128854072	+	-
+03-33266	Late Relapse	03-33266_tumorB	genome	2	2	1	1	bcl2_ba	POS	BCL2	IGK	18	60987962	60987963	2	89161068	89161069	+	+
+03-33266	Late Relapse	03-33266_tumorA	genome	2	2	0	1	bcl2_ba	POS	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+03-33266	Late Relapse	03-33266_tumorA, 03-33266_tumorB	genome	2	0	0	0	bcl6_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+03-33266	Late Relapse	03-33266_tumorA, 03-33266_tumorB	genome	2	0	0	0	myc_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+04-11038	Late Relapse	04-11038_tumorA, 04-11038_tumorB	capture	2	2	0	0	bcl2_ba	POS, POS	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+04-11038	Late Relapse	04-11038_tumorA, 04-11038_tumorB	capture	2	1	0	0	bcl6_ba	NEG, POS	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+04-11038	Late Relapse	04-11038_tumorA, 04-11038_tumorB	capture	2	0	0	0	myc_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+04-14066	Late Relapse	04-14066_tumorA, 04-14066_tumorB	genome	2	0	0	0	bcl2_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+04-14066	Late Relapse	04-14066_tumorA	genome	2	0	1	1	bcl6_ba	NA	BCL6	LINC00885	3	187510075	187510078	3	195841657	195841660	+	-
+04-14066	Late Relapse	04-14066_tumorB	genome	2	0	0	1	bcl6_ba	NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+04-14066	Late Relapse	04-14066_tumorB	genome	2	0	1	1	myc_ba	NEG	MYC	IGH	14	106400001	106400010	8	128819838	128819847	+	+
+04-14066	Late Relapse	04-14066_tumorA	genome	2	0	0	1	myc_ba	NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+04-14093	Late Relapse	04-14093_tumorA, 04-14093_tumorB	genome	2	0	0	0	bcl2_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+04-14093	Late Relapse	04-14093_tumorA, 04-14093_tumorB	genome	2	0	0	0	bcl6_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+04-14093	Late Relapse	04-14093_tumorA, 04-14093_tumorB	genome	2	0	0	0	myc_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+04-21856	Late Relapse	04-21856_tumorA, 04-21856_tumorB	genome	2	1	2	1	bcl2_ba	NA, POS	BCL2	IGH	14	106330069	106330070	18	60793794	60793795	+	-
+04-21856	Late Relapse	04-21856_tumorA, 04-21856_tumorB	genome	2	1	0	0	bcl6_ba	NEG, POS	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+04-21856	Late Relapse	04-21856_tumorA, 04-21856_tumorB	genome	2	0	0	0	myc_ba	NA, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+04-24061	Late Relapse	04-24061_tumorA, 04-24061_tumorB	genome	2	0	0	0	bcl2_ba	NA, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+04-24061	Late Relapse	04-24061_tumorA, 04-24061_tumorB	genome	2	0	0	0	bcl6_ba	NA, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+04-24061	Late Relapse	04-24061_tumorA, 04-24061_tumorB	genome	2	0	0	0	myc_ba	NA, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+05-15635	Late Relapse	05-15635_tumorA, 05-15635_tumorB	genome	2	2	0	0	bcl2_ba	POS, POS	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+05-15635	Late Relapse	05-15635_tumorA, 05-15635_tumorB	genome	2	0	0	0	bcl6_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+05-15635	Late Relapse	05-15635_tumorA, 05-15635_tumorB	genome	2	0	0	0	myc_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+05-32150	Primary Refractory	05-32150_tumorB, 05-32150T	genome	2	0	0	0	bcl2_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+05-32150	Primary Refractory	05-32150_tumorB, 05-32150T	genome	2	0	0	0	bcl6_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+05-32150	Primary Refractory	05-32150_tumorB, 05-32150T	genome	2	0	0	0	myc_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+06-11677	Late Relapse	06-11677_tumorA, 06-11677_tumorB	genome	2	0	0	0	bcl2_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+06-11677	Late Relapse	06-11677_tumorA, 06-11677_tumorB	genome	2	1	0	0	bcl6_ba	POS, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+06-11677	Late Relapse	06-11677_tumorA, 06-11677_tumorB	genome	2	0	0	0	myc_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+06-22314	Early Relapse	06-22314_tumorA, 06-22314_tumorB	genome	2	0	0	0	bcl2_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+06-22314	Early Relapse	06-22314_tumorA	genome	2	0	1	1	bcl6_ba	NEG	NFKBIZ	BCL6	3	101576120	101576123	3	187510640	187510643	-	+
+06-22314	Early Relapse	06-22314_tumorB	genome	2	0	0	1	bcl6_ba	NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+06-22314	Early Relapse	06-22314_tumorA, 06-22314_tumorB	genome	2	0	0	0	myc_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+06-24255	Late Relapse	06-24255_tumorB, 06-24255_tumorC, 06-24255_tumorD	genome	3	3	3	1	bcl2_ba	POS, POS, POS	BCL2	IGH	14	106330471	106330472	18	60793547	60793548	+	-
+06-24255	Late Relapse	06-24255_tumorB, 06-24255_tumorC, 06-24255_tumorD	genome	3	0	0	0	bcl6_ba	NEG, NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+06-24255	Late Relapse	06-24255_tumorB, 06-24255_tumorC, 06-24255_tumorD	genome	3	0	0	0	myc_ba	NEG, NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+07-25994	Late Relapse	07-25994_tumorA, 07-25994_tumorB, 07-25994_tumorC	genome	3	3	3	1	bcl2_ba	POS, POS, POS	BCL2	IGH	14	106328529	106328530	18	60776651	60776652	+	-
+07-25994	Late Relapse	07-25994_tumorA, 07-25994_tumorB, 07-25994_tumorC	genome	3	0	0	0	bcl6_ba	NEG, NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+07-25994	Late Relapse	07-25994_tumorA	genome	3	1	1	2	myc_ba	NEG	MYC	IGH	14	106083274	106083276	8	128948964	128948966	-	-
+07-25994	Late Relapse	07-25994_tumorB	genome	3	1	1	2	myc_ba	POS	MYC	PAX5	8	128742711	128742712	9	37187088	37187089	-	-
+07-25994	Late Relapse	07-25994_tumorC	genome	3	1	0	2	myc_ba	NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+07-32561	Late Relapse	07-32561_tumorA, 07-32561_tumorB	genome	2	0	2	1	bcl2_ba	NA, NA	BCL2	IGH	14	106329449	106329450	18	60763957	60763958	+	-
+07-32561	Late Relapse	07-32561_tumorA, 07-32561_tumorB	genome	2	0	0	0	bcl6_ba	NEG, NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+07-32561	Late Relapse	07-32561_tumorA, 07-32561_tumorB	genome	2	0	0	0	myc_ba	NEG, NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+07-40648	Late Relapse	07-40648_tumorA, 07-40648_tumorB	genome	2	2	2	1	bcl2_ba	POS, POS	BCL2	IGH	14	106330471	106330472	18	60792073	60792074	+	-
+07-40648	Late Relapse	07-40648_tumorA, 07-40648_tumorB	genome	2	2	0	0	bcl6_ba	POS, POS	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+07-40648	Late Relapse	07-40648_tumorA, 07-40648_tumorB	genome	2	1	0	0	myc_ba	POS, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+07-41887	Late Relapse	07-41887_tumorA, 07-41887_tumorB	genome	2	2	2	1	bcl2_ba	POS, POS	BCL2	IGH	14	106330831	106330832	18	60788036	60788037	+	-
+07-41887	Late Relapse	07-41887_tumorA	genome	2	1	1	1	bcl6_ba	POS	BCL6	IGH	14	106089624	106089627	3	187462879	187462882	+	-
+07-41887	Late Relapse	07-41887_tumorB	genome	2	1	0	1	bcl6_ba	NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+07-41887	Late Relapse	07-41887_tumorA	genome	2	1	1	1	myc_ba	POS	MYC	RHOH	4	40198113	40198118	8	129096060	129096065	+	+
+07-41887	Late Relapse	07-41887_tumorB	genome	2	1	0	1	myc_ba	NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+08-15460	Primary Refractory	08-15460_tumorB, 08-15460T	genome	2	0	0	0	bcl2_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+08-15460	Primary Refractory	08-15460_tumorB, 08-15460T	genome	2	2	2	1	bcl6_ba	POS, POS	BCL6	IGH	14	106326652	106326658	3	187457645	187457651	-	+
+08-15460	Primary Refractory	08-15460_tumorB, 08-15460T	genome	2	0	0	0	myc_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+08-17645	Early Relapse	08-17645_tumorA, 08-17645_tumorB	genome	2	0	0	0	bcl2_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+08-17645	Early Relapse	08-17645_tumorA, 08-17645_tumorB	genome	2	2	2	1	bcl6_ba	POS, POS	BCL6	IGH	14	106330284	106330285	3	187462712	187462713	+	-
+08-17645	Early Relapse	08-17645_tumorA, 08-17645_tumorB	genome	2	0	0	0	myc_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+08-24058	Late Relapse	08-24058_tumorA, 08-24058_tumorB, 08-24058_tumorC	capture	3	2	0	0	bcl2_ba	NA, POS, POS	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+08-24058	Late Relapse	08-24058_tumorA, 08-24058_tumorB, 08-24058_tumorC	capture	3	2	0	0	bcl6_ba	NA, POS, POS	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+08-24058	Late Relapse	08-24058_tumorA, 08-24058_tumorB, 08-24058_tumorC	capture	3	0	0	0	myc_ba	NEG, NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+08-29440	Late Relapse	08-29440_tumorA, 08-29440_tumorB	genome	2	2	2	1	bcl2_ba	POS, POS	BCL2	IGH	14	106380220	106380221	18	60793493	60793494	-	+
+08-29440	Late Relapse	08-29440_tumorA, 08-29440_tumorB	genome	2	0	0	0	bcl6_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+08-29440	Late Relapse	08-29440_tumorA, 08-29440_tumorB	genome	2	0	0	0	myc_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+09-15842	Primary Refractory	09-15842_tumorA, 09-15842_tumorB	genome	2	2	2	1	bcl2_ba	POS, POS	BCL2	IGH	14	106330838	106330839	18	60788874	60788875	+	-
+09-15842	Primary Refractory	09-15842_tumorA, 09-15842_tumorB	genome	2	1	0	0	bcl6_ba	NEG, POS	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+09-15842	Primary Refractory	09-15842_tumorA, 09-15842_tumorB	genome	2	0	0	0	myc_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+09-31008	Early Relapse	09-31008_tumorA, 09-31008_tumorB	genome	2	0	0	0	bcl2_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+09-31008	Early Relapse	09-31008_tumorA	genome	2	2	1	1	bcl6_ba	POS	BCL6	IGH	14	106324564	106324571	3	187463812	187463819	+	-
+09-31008	Early Relapse	09-31008_tumorB	genome	2	2	0	1	bcl6_ba	POS	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+09-31008	Early Relapse	09-31008_tumorA, 09-31008_tumorB	genome	2	0	0	0	myc_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+09-31601	Late Relapse	09-31601_tumorA, 09-31601_tumorB	genome	2	0	0	0	bcl2_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+09-31601	Late Relapse	09-31601_tumorA, 09-31601_tumorB	genome	2	0	0	0	bcl6_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+09-31601	Late Relapse	09-31601_tumorA, 09-31601_tumorB	genome	2	0	0	0	myc_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+09-33003	Early Relapse	09-33003_tumorB, 09-33003T	genome	2	0	0	0	bcl2_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+09-33003	Early Relapse	09-33003T	genome	2	2	1	1	bcl6_ba	POS	BCL6	IGL	22	23154777	23154778	3	187462521	187462522	+	-
+09-33003	Early Relapse	09-33003_tumorB	genome	2	2	0	1	bcl6_ba	POS	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+09-33003	Early Relapse	09-33003_tumorB, 09-33003T	genome	2	0	0	0	myc_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+10-11584	Late Relapse	10-11584_tumorA, 10-11584_tumorB	genome	2	2	2	1	bcl2_ba	POS, POS	BCL2	IGH	14	106330068	106330069	18	60764460	60764461	+	-
+10-11584	Late Relapse	10-11584_tumorA, 10-11584_tumorB	genome	2	2	0	0	bcl6_ba	POS, POS	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+10-11584	Late Relapse	10-11584_tumorA, 10-11584_tumorB	genome	2	0	0	0	myc_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+10-36955	Primary Refractory	10-36955_tumorA, 10-36955_tumorB, 10-36955_tumorC, 10-36955_tumorD	genome	4	2	4	1	bcl2_ba	POS, POS, NA, NA	BCL2	IGH	14	106329461	106329462	18	60793554	60793555	+	-
+10-36955	Primary Refractory	10-36955_tumorA, 10-36955_tumorB, 10-36955_tumorC, 10-36955_tumorD	genome	4	0	0	0	bcl6_ba	NEG, NEG, NA, NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+10-36955	Primary Refractory	10-36955_tumorA, 10-36955_tumorB, 10-36955_tumorC, 10-36955_tumorD	genome	4	0	0	0	myc_ba	NEG, NEG, NA, NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+10-39294	Late Relapse	10-39294_tumorA, 10-39294_tumorB	genome	2	0	0	0	bcl2_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+10-39294	Late Relapse	10-39294_tumorB	genome	2	0	1	1	bcl6_ba	NEG	BCL6	BACH2	3	187602363	187602368	6	92730355	92730360	+	-
+10-39294	Late Relapse	10-39294_tumorA	genome	2	0	0	1	bcl6_ba	NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+10-39294	Late Relapse	10-39294_tumorB	genome	2	0	1	1	myc_ba	NEG	MYC	IGK	2	88656881	88656896	8	128738899	128738914	-	-
+10-39294	Late Relapse	10-39294_tumorA	genome	2	0	0	1	myc_ba	NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+11-13204	Late Relapse	11-13204_tumorA, 11-13204_tumorB	genome	2	0	0	0	bcl2_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+11-13204	Late Relapse	11-13204_tumorA, 11-13204_tumorB	genome	2	0	0	0	bcl6_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+11-13204	Late Relapse	11-13204_tumorA, 11-13204_tumorB	genome	2	0	0	0	myc_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+11-31342	Early Relapse	11-31342_tumorA, 11-31342_tumorB, 11-31342_tumorC	capture	3	3	0	0	bcl2_ba	POS, POS, POS	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+11-31342	Early Relapse	11-31342_tumorA, 11-31342_tumorB, 11-31342_tumorC	capture	3	2	0	0	bcl6_ba	NEG, POS, POS	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+11-31342	Early Relapse	11-31342_tumorA, 11-31342_tumorB, 11-31342_tumorC	capture	3	3	0	0	myc_ba	POS, POS, POS	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+13-26835	Late Relapse	13-26835_tumorA, 13-26835_tumorB, 13-26835_tumorC, 13-26835_tumorD	genome	4	0	0	0	bcl2_ba	NEG, NEG, NA, NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+13-26835	Late Relapse	13-26835_tumorA, 13-26835_tumorB, 13-26835_tumorC, 13-26835_tumorD	genome	4	0	4	1	bcl6_ba	NEG, NEG, NA, NA	BCL6	EIF4A2	3	186501923	186501925	3	187462862	187462864	+	+
+13-26835	Late Relapse	13-26835_tumorA, 13-26835_tumorB, 13-26835_tumorC, 13-26835_tumorD	genome	4	0	0	0	myc_ba	NEG, NEG, NA, NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+13-38657	Primary Refractory	13-38657_tumorA, 13-38657_tumorB	genome	2	2	2	1	bcl2_ba	POS, POS	BCL2	IGH	14	106329466	106329467	18	60793456	60793457	+	-
+13-38657	Primary Refractory	13-38657_tumorA, 13-38657_tumorB	genome	2	0	2	1	bcl6_ba	NEG, NEG	BCL6	ST6GAL1	3	186743344	186743346	3	187462644	187462646	+	+
+13-38657	Primary Refractory	13-38657_tumorB	genome	2	1	1	1	myc_ba	POS	MYC	BCL2L11	2	111880227	111880231	8	128788393	128788397	+	-
+13-38657	Primary Refractory	13-38657_tumorA	genome	2	1	0	1	myc_ba	NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+14-10498	Early Relapse	14-10498_tumorA, 14-10498_tumorB	genome	2	0	0	0	bcl2_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+14-10498	Early Relapse	14-10498_tumorA, 14-10498_tumorB	genome	2	0	0	0	bcl6_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+14-10498	Early Relapse	14-10498_tumorA, 14-10498_tumorB	genome	2	0	0	0	myc_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+14-20552	Early Relapse	14-20552_tumorA, 14-20552_tumorB	genome	2	0	0	0	bcl2_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+14-20552	Early Relapse	14-20552_tumorA, 14-20552_tumorB	genome	2	0	0	0	bcl6_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+14-20552	Early Relapse	14-20552_tumorA, 14-20552_tumorB	genome	2	0	0	0	myc_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+14-24534	Primary Refractory	14-24534_tumorA, 14-24534_tumorB	genome	2	2	2	1	bcl2_ba	POS, POS	BCL2	IGH	14	106330464	106330465	18	60764456	60764457	+	-
+14-24534	Primary Refractory	14-24534_tumorA, 14-24534_tumorB	genome	2	0	0	0	bcl6_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+14-24534	Primary Refractory	14-24534_tumorA, 14-24534_tumorB	genome	2	0	0	0	myc_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+14-24648	Primary Refractory	14-24648_tumorA, 14-24648_tumorB	genome	2	0	0	0	bcl2_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+14-24648	Primary Refractory	14-24648_tumorA, 14-24648_tumorB	genome	2	0	0	0	bcl6_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+14-24648	Primary Refractory	14-24648_tumorA, 14-24648_tumorB	genome	2	0	0	0	myc_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+14-27873	Primary Refractory	14-27873_tumorA, 14-27873_tumorB, 14-27873_tumorC	capture	3	0	0	0	bcl2_ba	NEG, NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+14-27873	Primary Refractory	14-27873_tumorA, 14-27873_tumorB, 14-27873_tumorC	capture	3	3	0	0	bcl6_ba	POS, POS, POS	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+14-27873	Primary Refractory	14-27873_tumorA, 14-27873_tumorB, 14-27873_tumorC	capture	3	0	0	0	myc_ba	NEG, NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+14-29443	Early Relapse	14-29443_tumorA, 14-29443_tumorB	genome	2	0	0	0	bcl2_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+14-29443	Early Relapse	14-29443_tumorA, 14-29443_tumorB	genome	2	0	0	0	bcl6_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+14-29443	Early Relapse	14-29443_tumorA, 14-29443_tumorB	genome	2	0	0	0	myc_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+14-33798	Late Relapse	14-33798_tumorA, 14-33798_tumorB	genome	2	0	0	0	bcl2_ba	NA, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+14-33798	Late Relapse	14-33798_tumorA, 14-33798_tumorB	genome	2	0	0	0	bcl6_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+14-33798	Late Relapse	14-33798_tumorB	genome	2	0	1	1	myc_ba	NEG	MYC	DMD	8	129661266	129661272	X	32962931	32962937	+	-
+14-33798	Late Relapse	14-33798_tumorA	genome	2	0	0	1	myc_ba	NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+14-35472	Early Relapse	14-35472_tumorA, 14-35472_tumorB	genome	2	0	0	0	bcl2_ba	NEG, NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+14-35472	Early Relapse	14-35472_tumorA, 14-35472_tumorB	genome	2	0	0	0	bcl6_ba	NEG, NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+14-35472	Early Relapse	14-35472_tumorA, 14-35472_tumorB	genome	2	0	0	0	myc_ba	NEG, NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+15-13383	Early Relapse	15-13383_tumorB, 15-13383T	genome	2	0	0	0	bcl2_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+15-13383	Early Relapse	15-13383_tumorB, 15-13383T	genome	2	2	0	0	bcl6_ba	POS, POS	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+15-13383	Early Relapse	15-13383_tumorB, 15-13383T	genome	2	0	0	0	myc_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+16-22216	Late Relapse	16-22216_tumorA, 16-22216_tumorB	capture	2	0	0	0	bcl2_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+16-22216	Late Relapse	16-22216_tumorA, 16-22216_tumorB	capture	2	0	0	0	bcl6_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+16-22216	Late Relapse	16-22216_tumorA, 16-22216_tumorB	capture	2	0	0	0	myc_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+16-27074	Primary Refractory	16-27074_tumorA, 16-27074_tumorB	genome	2	0	0	0	bcl2_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+16-27074	Primary Refractory	16-27074_tumorA, 16-27074_tumorB	genome	2	0	0	0	bcl6_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+16-27074	Primary Refractory	16-27074_tumorA, 16-27074_tumorB	genome	2	0	0	0	myc_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+16-32248	Early Relapse	16-32248_tumorA, 16-32248_tumorB	genome	2	0	0	0	bcl2_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+16-32248	Early Relapse	16-32248_tumorA, 16-32248_tumorB	genome	2	0	0	0	bcl6_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+16-32248	Early Relapse	16-32248_tumorA, 16-32248_tumorB	genome	2	0	0	0	myc_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+16-43741	Late Relapse	16-43741_tumorA, 16-43741_tumorB	genome	2	1	2	1	bcl2_ba	POS, NA	BCL2	IGH	14	106329449	106329450	18	60793497	60793498	+	-
+16-43741	Late Relapse	16-43741_tumorA, 16-43741_tumorB	genome	2	1	2	1	bcl6_ba	POS, NA	MYC	BCL6	3	187492375	187492377	8	128894172	128894174	+	-
+16-43741	Late Relapse	16-43741_tumorA, 16-43741_tumorB	genome	2	1	2	1	myc_ba	POS, NA	MYC	BCL6	3	187492375	187492377	8	128894172	128894174	+	-
+17-33596	Early Relapse	17-33596_tumorA, 17-33596_tumorB	genome	2	0	0	0	bcl2_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+17-33596	Early Relapse	17-33596_tumorA, 17-33596_tumorB	genome	2	1	0	0	bcl6_ba	NEG, POS	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+17-33596	Early Relapse	17-33596_tumorA, 17-33596_tumorB	genome	2	0	0	0	myc_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+17-36275	Early Relapse	17-36275_tumorB, 17-36275T	genome	2	0	0	0	bcl2_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+17-36275	Early Relapse	17-36275_tumorB, 17-36275T	genome	2	0	0	0	bcl6_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+17-36275	Early Relapse	17-36275_tumorB, 17-36275T	genome	2	1	2	1	myc_ba	NEG, POS	MYC	ARIH	15	72895335	72895336	8	128745936	128745937	+	+
+17-40409	Primary Refractory	17-40409_tumorA, 17-40409_tumorB	genome	2	2	2	1	bcl2_ba	POS, POS	BCL2	IGH	14	106329469	106329470	18	60772566	60772567	+	-
+17-40409	Primary Refractory	17-40409_tumorA, 17-40409_tumorB	genome	2	0	0	0	bcl6_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+17-40409	Primary Refractory	17-40409_tumorA, 17-40409_tumorB	genome	2	0	0	0	myc_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+17-45529	Early Relapse	17-45529_tumorA, 17-45529_tumorB	genome	2	0	0	0	bcl2_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+17-45529	Early Relapse	17-45529_tumorA, 17-45529_tumorB	genome	2	2	0	0	bcl6_ba	POS, POS	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+17-45529	Early Relapse	17-45529_tumorA, 17-45529_tumorB	genome	2	0	0	0	myc_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+18-19313	Primary Refractory	18-19313_tumorA, 18-19313_tumorB	genome	2	2	2	1	bcl2_ba	POS, POS	BCL2	IGH	14	106329462	106329463	18	60790584	60790585	+	-
+18-19313	Primary Refractory	18-19313_tumorA, 18-19313_tumorB	genome	2	2	2	1	bcl6_ba	POS, POS	BCL6	MBNL1	3	151989362	151989363	3	187454712	187454713	+	+
+18-19313	Primary Refractory	18-19313_tumorA	genome	2	0	1	1	myc_ba	NEG	MYC	BCL6	3	188439192	188439194	8	128856958	128856960	-	-
+18-19313	Primary Refractory	18-19313_tumorB	genome	2	0	0	1	myc_ba	NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+19-13976	Primary Refractory	19-13976_tumorA, 19-13976_tumorB	genome	2	0	0	0	bcl2_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+19-13976	Primary Refractory	19-13976_tumorA, 19-13976_tumorB	genome	2	0	0	0	bcl6_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+19-13976	Primary Refractory	19-13976_tumorA, 19-13976_tumorB	genome	2	0	0	0	myc_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+19-16466	Early Relapse	19-16466_tumorA, 19-16466_tumorB	genome	2	2	2	1	bcl2_ba	POS, POS	BCL2	IGH	14	106028916	106028917	18	60994804	60994805	-	+
+19-16466	Early Relapse	19-16466_tumorA, 19-16466_tumorB	genome	2	2	2	1	bcl6_ba	POS, POS	BCL6	IGH	14	106240439	106240440	3	187462652	187462653	+	-
+19-16466	Early Relapse	19-16466_tumorA, 19-16466_tumorB	genome	2	0	0	0	myc_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+92-38267	Late Relapse	92-38267_tumorA, 92-38267_tumorB	genome	2	2	2	1	bcl2_ba	POS, POS	BCL2	IGH	14	106329462	106329463	18	60793443	60793444	+	-
+92-38267	Late Relapse	92-38267_tumorA, 92-38267_tumorB	genome	2	0	0	0	bcl6_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+92-38267	Late Relapse	92-38267_tumorA, 92-38267_tumorB	genome	2	0	0	0	myc_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+94-15772	Late Relapse	94-15772_tumorA, 94-15772_tumorB	genome	2	0	0	0	bcl2_ba	NA, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+94-15772	Late Relapse	94-15772_tumorA, 94-15772_tumorB	genome	2	0	0	0	bcl6_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+94-15772	Late Relapse	94-15772_tumorA, 94-15772_tumorB	genome	2	0	0	0	myc_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+95-32141	Late Relapse	95-32141_tumorA, 95-32141_tumorB	genome	2	0	0	0	bcl2_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+95-32141	Late Relapse	95-32141_tumorA, 95-32141_tumorB	genome	2	0	2	1	bcl6_ba	NEG, NEG	BCL6	EIF4A2	3	186501950	186501951	3	187462078	187462079	+	+
+95-32141	Late Relapse	95-32141_tumorA, 95-32141_tumorB	genome	2	0	0	0	myc_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+97-18502	Late Relapse	97-18502_tumorA, 97-18502_tumorB	genome	2	2	2	1	bcl2_ba	POS, POS	BCL2	IGH	14	106329459	106329460	18	60789123	60789124	+	-
+97-18502	Late Relapse	97-18502_tumorA, 97-18502_tumorB	genome	2	0	0	0	bcl6_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+97-18502	Late Relapse	97-18502_tumorA, 97-18502_tumorB	genome	2	0	0	0	myc_ba	NEG, NEG	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+LY_RELY_028	Primary Refractory	LY_RELY_028_tumorA, LY_RELY_028_tumorB	genome	2	0	2	1	bcl2_ba	NA, NA	BCL2	IGH	14	106329456	106329457	18	60763958	60763959	+	-
+LY_RELY_028	Primary Refractory	LY_RELY_028_tumorA, LY_RELY_028_tumorB	genome	2	0	0	0	bcl6_ba	NA, NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+LY_RELY_028	Primary Refractory	LY_RELY_028_tumorA, LY_RELY_028_tumorB	genome	2	0	2	1	myc_ba	NA, NA	MYC	IGH	14	106070045	106070046	8	128749168	128749169	+	-
+LY_RELY_109	Late Relapse	LY_RELY_109_tumorA, LY_RELY_109_tumorB	genome	2	0	2	1	bcl2_ba	NA, NA	BCL2	IGH	14	106329466	106329467	18	60789117	60789118	+	-
+LY_RELY_109	Late Relapse	LY_RELY_109_tumorA, LY_RELY_109_tumorB	genome	2	0	0	0	bcl6_ba	NA, NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+LY_RELY_109	Late Relapse	LY_RELY_109_tumorA, LY_RELY_109_tumorB	genome	2	0	0	0	myc_ba	NA, NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+LY_RELY_116	Late Relapse	LY_RELY_116_tumorA, LY_RELY_116_tumorB	genome	2	0	2	1	bcl2_ba	NA, NA	BCL2	IGH	14	106329463	106329464	18	60793444	60793445	+	-
+LY_RELY_116	Late Relapse	LY_RELY_116_tumorA, LY_RELY_116_tumorB	genome	2	0	0	0	bcl6_ba	NA, NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+LY_RELY_116	Late Relapse	LY_RELY_116_tumorA, LY_RELY_116_tumorB	genome	2	0	0	0	myc_ba	NA, NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+LY_RELY_121	Late Relapse	LY_RELY_121_tumorA, LY_RELY_121_tumorB	genome	2	0	0	0	bcl2_ba	NA, NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+LY_RELY_121	Late Relapse	LY_RELY_121_tumorA, LY_RELY_121_tumorB	genome	2	0	0	0	bcl6_ba	NA, NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+LY_RELY_121	Late Relapse	LY_RELY_121_tumorA, LY_RELY_121_tumorB	genome	2	0	0	0	myc_ba	NA, NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+LY_RELY_128	Late Relapse	LY_RELY_128_tumorA, LY_RELY_128_tumorB	genome	2	0	2	1	bcl2_ba	NA, NA	BCL2	IGH	14	106330456	106330457	18	60793552	60793553	+	-
+LY_RELY_128	Late Relapse	LY_RELY_128_tumorA, LY_RELY_128_tumorB	genome	2	0	0	0	bcl6_ba	NA, NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+LY_RELY_128	Late Relapse	LY_RELY_128_tumorA, LY_RELY_128_tumorB	genome	2	0	0	0	myc_ba	NA, NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA

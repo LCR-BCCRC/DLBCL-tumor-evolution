@@ -1,0 +1,13 @@
+time_point	metric	.y.	group1	group2	n1	n2	statistic	p	p.adj	p.adj.signif	y.position	groups
+Diagnosis	All	unique_mutations	Primary Refractory	Early Relapse	12	17	66	0.117	0.117	ns	20528.8	
+Diagnosis	All	unique_mutations	Primary Refractory	Late Relapse	12	38	38	1.75e-6	5.25e-6	***	23303.5	
+Diagnosis	All	unique_mutations	Early Relapse	Late Relapse	17	38	117	9.08e-5	1.36e-4	***	26078.199999999997	
+Relapse	All	unique_mutations	Primary Refractory	Early Relapse	12	17	55	0.038	0.038	*	28647.28	
+Relapse	All	unique_mutations	Primary Refractory	Late Relapse	12	38	52	1.57e-5	4.71e-5	***	32615.199999999997	
+Relapse	All	unique_mutations	Early Relapse	Late Relapse	17	38	184	0.011	0.016	*	36583.119999999995	
+Diagnosis	Coding	unique_mutations	Primary Refractory	Early Relapse	13	18	76	0.104	0.104	ns	361.8	
+Diagnosis	Coding	unique_mutations	Primary Refractory	Late Relapse	13	41	42	5.81e-6	1.74e-5	***	405	
+Diagnosis	Coding	unique_mutations	Early Relapse	Late Relapse	18	41	102.5	1.19e-5	1.78e-5	***	448.2	
+Relapse	Coding	unique_mutations	Primary Refractory	Early Relapse	13	18	41	0.002	0.004	**	353	
+Relapse	Coding	unique_mutations	Primary Refractory	Late Relapse	13	41	56	2.14e-5	6.42e-5	***	402.5	
+Relapse	Coding	unique_mutations	Early Relapse	Late Relapse	18	41	232.5	0.025	0.025	*	452	

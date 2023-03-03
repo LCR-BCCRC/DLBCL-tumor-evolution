@@ -1,0 +1,10 @@
+relapse_timing	discordant	n	IG_gene
+Early Relapse	FALSE	9	IGH
+Late Relapse	FALSE	7	IGH
+Late Relapse	TRUE	1	IGH
+Primary Refractory	FALSE	4	IGH
+Early Relapse	FALSE	11	IGK/L
+Early Relapse	TRUE	1	IGK/L
+Late Relapse	FALSE	10	IGK/L
+Late Relapse	TRUE	6	IGK/L
+Primary Refractory	FALSE	6	IGK/L

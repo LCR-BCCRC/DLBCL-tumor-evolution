@@ -1,0 +1,36 @@
+
+```{r source}
+
+source("src/libs.R")
+source("global_variables.R", local = knitr::knit_global())
+source("src/process_authors.R")
+
+
+```
+
+
+```{r process_authors}
+
+parsed_authors <- process_authors("authors.yaml", with_degrees = FALSE)
+
+correspondence <- c(
+  "**\\*Corresponding Author**",
+  "**Dr. David W. Scott**",
+  "Centre for Lymphoid Cancer",
+  "BC Cancer Research Institute",
+  "675 West 10th Ave.",
+  "Vancouver, BC, Canada",
+  "V5Z 1L3",
+  "dscott8@bccancer.bc.ca"
+)
+
+
+```
+
+# Relapse timing is associated with distinct evolutionary dynamics in DLBCL {.unnumbered}
+
+`r parsed_authors$parsed_authors`
+
+`r parsed_authors$parsed_affiliations`
+
+`r paste0(correspondence, collapse = "  \n")`

@@ -1,0 +1,251 @@
+author:
+  - name: Laura K. Hilton
+    affiliations:
+      [clc, sfu_mbb]
+    degrees:
+      "PhD"
+  - name: Henry S. Ngu
+    affiliations:
+      clc
+    degrees:
+      "MBChB"
+  - name: Brett Collinge
+    affiliations:
+      [clc, ubc_path]
+    degrees:
+      "BSc"
+  - name: Kostiantyn Dreval
+    affiliations:
+      [sfu_mbb, gsc]
+    degrees:
+      "PhD"
+  - name: Susana Ben-Neriah
+    affiliations:
+      clc
+    degrees:
+      "MSc"
+  - name: Christopher K. Rushton
+    affiliations:
+      sfu_mbb
+    degrees:
+      "BSc"
+  - name: Jasper C.H. Wong
+    affiliations:
+      clc
+    degrees:
+      "MSc"
+  - name: Manuela Cruz
+    affiliations:
+      sfu_mbb
+    degrees:
+      "BSc"
+  - name: Andrew Roth
+    affiliations:
+      molonc
+    degrees:
+      "PhD"
+  - name: Merrill Boyle
+    affiliations:
+      clc
+    degrees:
+      "BSc"
+  - name: Barbara Meissner
+    affiliations:
+      clc
+    degrees:
+      "PhD"
+  - name: Graham W. Slack
+    affiliations:
+      [clc, ubc_path]
+    degrees:
+      "MD"
+  - name: Pedro Farinha
+    affiliations:
+      [clc, ubc_path]
+    degrees:
+      ["MD", "PhD"]
+  - name: Jeffrey W. Craig
+    affiliations:
+      [clc, ubc_path]
+    degrees:
+      ["MD", "PhD"]
+  - name: Alina S. Gerrie
+    affiliations:
+      [clc, medonc]
+    degrees:
+      ["MD"]
+  - name: Ciara L. Freeman
+    affiliations:
+      moffitt
+    degrees:
+      ["MD", "PhD"]
+  - name: Diego Villa
+    affiliations:
+      [clc, medonc]
+    degrees:
+      ["MD"]
+  - name: Michael Crump
+    affiliations:
+      pmcc
+    degrees:
+      "MD"
+  - name: Lois Shepherd
+    affiliations:
+      [cctg, qmed]
+    degrees:
+      "MD"
+  - name: Annette E. Hay
+    affiliations:
+      [cctg, qmed]
+    degrees:
+      "MBChB"
+  - name: John Kuruvilla
+    affiliations:
+      pmcc
+    degrees:
+      "MD"
+  - name: Kerry J. Savage
+    affiliations:
+      [clc, medonc]
+    degrees:
+      "MD"
+  - name: Robert Kridel
+    affiliations:
+      pmcc
+    degrees:
+      ["MD", "PhD"]
+  - name: Aly Karsan
+    affiliations:
+      gsc
+    degrees:
+      "MD"
+  - name: Marco A. Marra
+    affiliations:
+      [clc, gsc, medgen]
+    degrees:
+      "PhD"
+  - name: Laurie H. Sehn
+    affiliations:
+      [clc, medonc]
+    degrees:
+      "MD"
+  - name: Christian Steidl
+    affiliations:
+      [clc, ubc_path]
+    degrees:
+      ["MD", "PhD"]
+  - name: Ryan D. Morin
+    affiliations:
+      [clc, sfu_mbb, gsc]
+    degrees:
+      "PhD"
+  - name: David W. Scott
+    affiliations:
+      [clc, medonc]
+    degrees:
+      ["MBChB", "PhD"]
+    email: "dscott8@bccancer.bc.ca"
+    attributes:
+      corresponding
+affiliations:
+  clc:
+    name: BC Cancer Research Institute
+    department: Centre for Lymphoid Cancer
+    city: Vancouver
+    state: BC
+    country: Canada
+  sfu_mbb:
+    name: Simon Fraser University
+    department: Department of Molecular Biology and Biochemistry
+    city: Burnaby
+    state: BC
+    country: Canada
+  # ubc_med:
+  #   name: University of British Columbia
+  #   department: Department of Medicine
+  #   city: Vancouver
+  #   state: BC
+  #   country: Canada
+  ubc_path:
+    name: University of British Columbia
+    department: Department of Pathology and Laboratory Medicine
+    city: Vancouver
+    state: BC
+    country: Canada
+  gsc:
+    name: BC Cancer Research Institute
+    department: Canada's Michael Smith Genome Sciences Centre
+    city: Vancouver
+    state: BC
+    country: Canada
+  molonc:
+    name: BC Cancer Research Institute
+    department: Department of Molecular Oncology
+    city: Vancouver
+    state: BC
+    country: Canada
+  medonc:
+    name: University of British Columbia
+    department: Division of Medical Oncology, Department of Medicine
+    city: Vancouver
+    state: BC
+    country: Canada
+  moffitt:
+    name: H. Lee Moffitt Cancer Center & Research Institute
+    department: Department of Blood and Marrow Transplant and Cellular Immunotherapy
+    city: Tampa
+    state: FL
+  medgen:
+    name: University of British Columbia
+    department: Department of Medical Genetics
+    city: Vancouver
+    state: BC
+    country: Canada
+  pmcc:
+    name: University Health Network
+    department: Princess Margaret Cancer Center
+    city: Toronto
+    state: "ON"
+    country: Canada
+  cctg:
+    name: Queens University
+    department: Canadian Cancer Trials Group
+    city: Kingston
+    state: "ON"
+    country: Canada
+  qmed:
+    name: Queens University
+    department: Department of Medicine
+    city: Kingston
+    state: "ON"
+    country: Canada
+
+abstract:
+  [
+    "Diffuse large B-cell lymphoma (DLBCL) is cured in over 60% of patients, but outcomes are poor for patients with relapsed or refractory disease (rrDLBCL). Here, we performed whole genome/exome sequencing (WGS/WES) on tumors from 73 serially-biopsied patients with rrDLBCL. Based on the observation that outcomes to salvage therapy/autologous stem cell transplantation are related to time-to-relapse, we stratified patients into groups according to relapse timing to explore the relationship to genetic divergence and sensitivity to salvage immunochemotherapy. The degree of mutational divergence increased with time between biopsies, yet tumor pairs were mostly concordant for cell-of-origin, oncogene rearrangement status and genetics-based subgroup. In patients with highly divergent tumors, several genes acquired exclusive mutations independently in each tumor, which, along with concordance of genetics-based subgroups, suggests that the earliest mutations in a shared precursor cell constrain tumor evolution. These results suggest that late relapses commonly represent genetically distinct and chemotherapy-naïve disease."
+  ]
+
+acknowledgements:
+  [
+    "This study was supported by a Large Scale Applied Research Project funded by Genome Canada (13124), Genome BC (271LYM), Canadian Institutes of Health Research (CIHR) (GP1-155873), the British Columbia Cancer Foundation (BCCF) and the Provincial Health Services Authority (PHSA). It was also supported by Terry Fox Research Institute (TFRI) Program Project Grants (1061, 1108), TFRI Marathon of Hope Cancer Centre Network, the Genome BC Marathon of Hope Cancer Centre program (MOH001), and grant 1P01CA229100 from the National Cancer Institute. RDM and CS are supported by Michael Smith Foundation for Health Research, Career Investigator Awards. DWS is supported by a Michael Smith Foundation for Health Research, Health Professional Investigator Award. BC is supported by a CIHR Canada Graduate Scholarship Doctoral Award. "
+  ]
+  
+cois: 
+  [
+    "CLF reports honoraria/consulting for BMS, Seattle Genetics, Celgene, Abbvie, Sanofi, Incyte, Amgen, ONK therapeutics and Janssen; research funding from BMS, Janssen and Roche/Genentech. DV reports reports honoraria/advisory boards for Roche and institutional research funding from Roche. AEH reports research funding from Roche, AbbVie, Janssen, Merck, Seattle Genetics, Karyopharm and Incyte. KJS reports honoraria/consulting for Abbvie, AstraZeneca, BMS, Janssen, Merck and Seattle Genetics; Steering committee for Beigene; Data and safety monitoring committee for Regeneron. RK reports research funding from Abbvie. CS reports consultancy for AbbVie, Bayer, and Seattle Genetics; research funds from Trillium Therapeutics, BMS, and Epizyme. DWS reports consultancy for AbbVie, AstraZeneca, Incyte, and Janssen; research funds from Janssen and Roche/Genentech; named inventor on a patent describing the use of gene expression to subtype aggressive B-cell lymphomas, one of which is licensed to NanoString Technologies. All other authors declare no competing financial and/or non-financial interests in relation to the work described."
+  ]
+
+figure_legends:
+  [
+    "**Relationship between relapse timing and outcomes to salvage therapy.** **A, B.** The percent of patients in each relapse timing category whose relapse responded to salvage therapy (**A**) and who received ASCT (**B**). Groups were compared with pairwise Fisher's exact tests. **C-F.** Kaplan-Meier curves showing PFS and OS from the time of progression or ASCT. P-values were determined with a log-rank test. * P < 0.05; ** P < 0.01; *** P < 0.001.",
+
+    "**Sequencing cohort patient histories.** Disease and treatment histories for all known biopsies and progressions for patients for which WGS/WES data were generated, distributed according to relapse timing categories. Five patients were omitted due to incomplete histories. DLBCL tumors are colored according to NanoString COO where available or are otherwise labeled DLBCL-NOS (not otherwise specified). COMFL, composite lymphoma with areas of DLBCL and FL morphology; FL, follicular lymphoma; MZL, marginal zone lymphoma; MALT, extranodal MZL mucosa-associated lymphoid tissue; HGBL, high-grade B-cell lymphoma; PROG, clinical progression without a biopsy. ",
+
+    "**Patterns of evolution in diagnostic and relapse tumor pairs.** **A** Oncoplots of variants identified exclusively at diagnosis (top), relapse (bottom), or shared between biopsies (middle), highlighting the most frequently mutated genes involved in LymphGen classification. Patients are stratified by relapse timing and ordered by the mean percentage of exclusive variants. Barplots indicate the number of coding mutations present per patient in each mutation subset. **B** The relationship between total variants (all or coding only) at diagnosis or relapse vs. the number of mutations shared between tumors. The dashed grey line represents the line of unity. **C** The percent of variants exclusive to either diagnostic or relapse tumors as a function of time between biopsies. R represents the Pearson correlation coefficient. **D, E.** Concordance of heavy chain (**D**) and light chain (**E**) V gene usage derived from RNAseq data for tumor pairs colored by V gene subgroup. In all plots, alluvia connecting each tumor pair are opaque for discordant pairs and translucent for concordant pairs. *N.B.* Where V gene usage was discordant but both V genes belong to the same subgroup, the color is consistent across timepoints. ",
+
+    "**Comparison of structural variants and GEP and genetic classifications between biopsies.** **A.** Concordance of BA-FISH results between diagnosis and first relapse for *MYC*, *BCL2*, and *BCL6* translocations. **B.** Circos plots showing discordant *MYC* translocations in two patients who experienced late relapse. Top: a tumor pair that was positive for BA-FISH at both timepoints; bottom: a tumor pair that was BA-FISH postive at diagnosis and negative at relapse. **C.** Alluvial comparison of COO classifications in diagnostic/relapse pairs stratified by relapse timing. Frank discordance (ABC to GCB or *vice versa*) is indicated by opaque alluvia. **D.** A scatter plot comparing DLBCL90 COO scores across tumor pairs. Red circles highlight frank discordance in COO classification. R values indicate Pearson correlation coefficient. **E.** Comparison of LymphGen classifications between tumor pairs. Frank discordance (a switch between two mutually exclusive non-Other classifications) is emphasized with opaque alluvia.  ",
+
+    "**Representative phylogenetic reconstructions.**  Each row of plots displays data for a single patient. Tumors are labeled according to order of occurrence and LymphGen classification. Subclones are colored consistently across all plots for each patient. From left to right: Cancer cell fraction of subclones estimated by PhyClone; VAF of each variant as a scatter plot with the diagnostic tumor on the x-axis and relapse tumor on the y-axis with selected genes labeled; the fraction of mutations shared between both tumors (*i.e.* all mutations in a cluster with a CCF > 0.1); and the inferred phylogenetic relationship between tumors. Hotspot mutations at *MYD88* L265P and *CD79B* Y179 and missense mutations in the *CREBBP* lysine acetyltransferase (KAT) domain are indicated with an asterisk.", 
+    
+    "**Classification features in divergent tumor pairs.** **A.** LymphGen classification features that were mutated in two or more tumors from the same patient. Trunk variants (darkest) are identical in all tumors from the same patient; branch trunk are variants not shared across all tumors but are common between at least two; and exclusive are those found in only one tumor. Numbers on each bar represent the total number of variants considered in each feature. **B.** LymphGen classification features that acquired exclusive variants in two or more tumors from the same patient. Class informing indicates that the mutations arose in patients in which LymphGen classification matched the class association of the acquired variants. **C.** Patient LymphGen classifications stratified according to associated low-grade lymphoma entities. Transformed indicates low-grade disease preceded the first DLBCL diagnosis, while *de novo* indicates that the low-grade diagnosis was made after DLBCL diagnosis. **D.** A model of the relationship between relapse timing, evolutionary patterns, and outcomes. Created with BioRender.com"
+  ]

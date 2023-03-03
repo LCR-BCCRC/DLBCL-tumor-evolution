@@ -1,0 +1,13 @@
+metric	from	group1	group2	p.value	p.value.format
+OS	HSCT	Early Relapse	Late Relapse	0.002487344806430757	0.00249
+OS	HSCT	Primary Refractory	Late Relapse	3.186629576147289e-4	< 0.001
+OS	HSCT	Primary Refractory	Early Relapse	0.229677857850851	0.22968
+PFS	HSCT	Early Relapse	Late Relapse	3.022903636657534e-4	<0.001
+PFS	HSCT	Primary Refractory	Late Relapse	2.724247122019785e-5	<0.001
+PFS	HSCT	Primary Refractory	Early Relapse	0.20645707115888773	0.206
+OS	Progression	Early Relapse	Late Relapse	1.609750218685739e-5	< 0.001
+OS	Progression	Primary Refractory	Late Relapse	1.3226075602607442e-9	< 0.001
+OS	Progression	Primary Refractory	Early Relapse	0.002258196788165645	0.00226
+PFS	Progression	Early Relapse	Late Relapse	5.64509093912097e-6	<0.001
+PFS	Progression	Primary Refractory	Late Relapse	4.055660743218288e-11	<0.001
+PFS	Progression	Primary Refractory	Early Relapse	2.60734589263561e-4	<0.001

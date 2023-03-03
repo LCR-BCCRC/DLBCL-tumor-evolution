@@ -1,0 +1,13 @@
+relapse_timing	metric	time_point	mean_genome_coverage	mean_genome_coverage_partner	mean_total.muts	mean_shared.muts	mean_unique_muts_percent	mean_unique_mutations
+Primary Refractory	All	Diagnosis	50.82	48.11	15348.08	14514.5	5.06	833.58
+Primary Refractory	All	Relapse	48.11	50.82	16038.67	14514.5	9.5	1524.17
+Primary Refractory	Coding	Diagnosis	52.68	53.77	149.23	134.08	9.44	15.15
+Primary Refractory	Coding	Relapse	53.77	52.68	151.15	134.08	12.28	17.08
+Early Relapse	All	Diagnosis	47.24	39.85	9760.76	8253.76	17.24	1507
+Early Relapse	All	Relapse	39.85	47.24	11551.35	8253.76	31.39	3297.59
+Early Relapse	Coding	Diagnosis	47.82	46.05	116.83	94.67	20.81	22.17
+Early Relapse	Coding	Relapse	46.05	47.82	141.67	94.67	36.5	47
+Late Relapse	All	Diagnosis	30.81	36.44	13699.95	6793.11	51.26	6906.84
+Late Relapse	All	Relapse	36.44	30.81	13783.71	6793.11	54.86	6990.61
+Late Relapse	Coding	Diagnosis	31.46	40.34	143.46	56.05	59.1	87.41
+Late Relapse	Coding	Relapse	40.34	31.46	142.95	56.05	60.67	86.9

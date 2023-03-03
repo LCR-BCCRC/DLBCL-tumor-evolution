@@ -1,0 +1,10 @@
+FISH	relapse_timing	multi_FISH_pos	Concordant	Discordant
+bcl2_ba	Early Relapse	3	3	0
+bcl2_ba	Late Relapse	12	16	0
+bcl2_ba	Primary Refractory	6	7	0
+bcl6_ba	Early Relapse	2	2	0
+bcl6_ba	Late Relapse	3	5	0
+bcl6_ba	Primary Refractory	2	3	0
+myc_ba	Early Relapse	2	2	0
+myc_ba	Late Relapse	3	1	2
+myc_ba	Primary Refractory	0	1	0

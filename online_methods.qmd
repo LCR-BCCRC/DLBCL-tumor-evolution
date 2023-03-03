@@ -1,0 +1,53 @@
+
+## Online Methods {.unnumbered}
+
+### Cohort selection
+
+The BC Cancer lymphoma database was queried to identify all patients with DLBCL diagnosed between 2001-2020 with documented progression or relapse after front-line curative-intent R-CHOP-like chemoimmunotherapy. All patients were transplant-eligible and treated with salvage chemoimmunotherapy with intention to treat with autologous hematopoietic stem cell transplant. Patients with incidental discordant bone marrow involvement with low-grade B-cell lymphoma were included. Exclusion criteria were HIV positivity, transformed DLBCL, and isolated central nervous system (CNS) relapse. For most patients, the date of end of treatment was unavailable, so the definition of primary refractory as relapse or progression within 9 months of diagnosis is based on a typical 6 month course of treatment followed by progression or relapse within another 3 months[@hitzOutcomePatientsPrimary2015]. This study was reviewed and approved by the University of British Columbia-BC Cancer Research Ethics Board in accordance with the Declaration of Helsinki.
+
+ For sequencing and other assays, BC Cancer lymphoma database was queried to identify patients with multiple biopsies of DLBCL morphology, extended to include patients with transformed lymphoma and more complex treatment histories. Six patients were identified from the Canadian Cancer Trials Group LY17 cohort. At Princess Margaret Cancer Centre, patients with relapsed DLBCL were prospectively accrued. Patients with a history of indolent disease were identified based on occurrence of indolent lymphoma (FL, CLL/SLL, MALT, MZL) or bone marrow infiltrates at any time in disease course. Samples were selected for sequencing on the basis of sufficient available material for two or more timepoints and peripheral blood for germline controls. Where insufficient material was available for sequencing, samples were subjected to fluorescence *in situ* hybridization (FISH) and/or gene expression profiling (GEP).
+
+### Fluorescence *in situ* hybridization
+
+Tissue Microarrays (TMAs) were constructed from duplicate 0.6 mm cores. FISH was performed on formalin-fixed paraffin-embedded (FFPE) material on whole tissue or TMA sections using commercially available Vysis LSI (Abbott) or Metasystems XL break apart probes for MYC (Abbott 01N63-020; Metasystems D-6030-100-TC), BCL2 (Abbott 05N51-020; Metasystems D-6018-100-OG) and BCL6 (Abbott 01N23-020; Metasystems D-6016-100-OG). Images were captured using a Metafer CoolCube 1 camera and Metafer software (version 3.11.8). Two independent observers scored 100 nuclei per biopsy, except for small or poor-quality biopsies where only 50-100 nuclei could be scored.  Tumors in which <50 nuclei could be scored were considered a failed FISH result. For biopsies with discrepant scores, consensus was reached by a third observer. Rearrangement was defined as a break-apart signal in ≥5% of cells, and copy number variation was defined as ≥3 fused signals in ≥25% of cells.
+
+### NanoString Gene Expression Profiling
+
+RNA was extracted from FFPE biopsies using the Qiagen AllPrep DNA/RNA FFPE Kit (80234) or isolated from DNAse treatment of total nucleic acids (TNA) extracted using the ALINE FFPE GenePure Purification Kit (FP-2001-BC-384), automated on the Hamilton Nimbus robot. Digital gene expression profiling (GEP) was performed on RNA using the DLBCL90 assay on the nCounter platform (Nanostring), as previously described[@scottDeterminingCelloforiginSubtypes2014; @ennishiDoubleHitGeneExpression2018].
+
+### Library construction and sequencing
+
+Samples were selected for sequencing on the basis of the availability of sufficient material for two or more biopsies along with peripheral blood for germline controls. The preservation of each tumor sample (FFPE or fresh frozen) is indicated in Table S1. For FFPE samples, total nucleic acid (TNA) was extracted using the ALINE FFPE GenePure Purification kit. When ≥ 300 ng of TNA was extracted, TNA was treated with S1 nuclease to reduce the rate of chimeric fragments derived from single-stranded DNA and overhangs[@haileSourcesErroneousSequences2019]. DNA was isolated from TNA by RNase treatment. Paired-end DNA libraries for sequencing were generated using a PCR-based protocol as previously described[@haileAutomatedHighThroughput2017]. For fresh frozen tissues, DNA was extracted and subjected to library construction as previously described [@chunGenomeWideProfilesExtracranial2016].
+
+Targeted capture sequencing was performed using a panel of 126 genes designed specifically for LymphGen classification ("LySeqST"; Table S3). Hybridization capture was performed on the same library as WGS when possible, or else a new nucleic acid extraction from the same biopsy was obtained for library construction and capture.
+
+### Alignment and variant calling
+
+Genomes, exomes, and targeted capture data were aligned against the GRCh37 reference genome using bwa-mem 0.7.17[@liAligningSequenceReads2013]. To minimize the rate of FFPE artifacts, somatic variants were identified with the SLMS-3 pipeline, which employs an ensemble of Manta/Strelka2[@kimStrelka2FastAccurate2018; @chenMantaRapidDetection2016], [SAGE](https://github.com/hartwigmedical/hmftools/tree/master/sage), MuTect2[@benjaminCallingSomaticSNVs2019], and LoFreq[@wilmLoFreqSequencequalityAware2012], and variants called by three or more variant callers are passed. Somatic variants were annotated with [VCF2MAF](https://github.com/mskcc/vcf2maf) and the Ensembl Variant Effect Predictor[@mclarenEnsemblVariantEffect2016]. Variant calls were "augmented": all variant calls for a given patient were pooled, and read support for each variant was tallied up for each genome or exome from that patient, thereby recovering low-support variants that may be undetected by our stringent variant calling pipeline. When both WGS and LySeqST capture data were available, variant calls were pooled for each biopsy. A variant was excluded if there weren't at least 10 unique reads covering its genomic position in all sequenced tumors from the same patient; no tumor had more than 30% dropout of variants using this method. LymphGen classification was performed with these variant calls using a standalone instance provided by George Wright[@wrightProbabilisticClassificationTool2020]. The somatic variant calling and annotation pipelines are available as part of the [LCR Modules](https://github.com/lcr-bccrc/lcr-modules) suite of pipelines.
+
+Structural variants were identified with an ensemble of GRIDSS2[@cameronGRIDSS2ComprehensiveCharacterisation2021] and Manta[@chenMantaRapidDetection2016] intersected with the BioConductor package StructuralVariantAnotation[@cameronStructuralVariantAnnotationVariantAnnotations2022]. Copy number variants were identified with Battenberg[@nik-zainalLifeHistory212012] for WGS or Sequenza[@faveroSequenzaAllelespecificCopy2015] for WES.
+
+To identify immunoglobulin rearrangements, RNAseq data were analyzed with MiXCR[@bolotinMiXCRSoftwareComprehensive2015; @bolotinAntigenReceptorRepertoire2017] with full contig assembly. IMGT Blast[@lefrancIMGTInternationalImMunoGeneTics2015] was used to annotate assembled contigs with IG genes.
+
+### Quality Control
+
+Genome coverage was estimated three ways: by calculating the theoretical coverage as read length multiplied by total unique reads divided by reference genome size ("Raw Coverage Estimate"), by calculating the average depth at all variant positions ("Mean Variant Depth"), or using Picard [CollectWgsMetrics](https://broadinstitute.github.io/picard/) ("Mean Corrected Coverage"), which does not double-count the overlapping portions of read pairs[@drevalMinimumInformationReporting2022]. Coverage of exome and targeted sequencing data were estimated with Picard [CollectHsMetrics](https://broadinstitute.github.io/picard/) (Extended Data Figure 2).
+
+### Clonal analysis
+
+Shared variants were quantified in tumor pairs (using the first two DLBCL morphology time points for each patient) by matching variants on genome position and variant allele. The percent exclusive variants was calculated as the proportion of all variants in a tumor not shared with its paired biopsy. For clonal analysis, variant calls were subset to synonymous and non-synonymous variants in coding space and in regions commonly affected by aSHM[@arthurGenomewideDiscoverySomatic2018]. A bed file of aSHM regions is available as part of the [GAMBLR](https://github.com/morinlab/GAMBLR/) R package. Variants were clustered into subclones with PyClone-VI[@gillisPyCloneVIScalableInference2020] and phylogenetic relationships between subclones were reconstructed with its companion tool PhyClone. Battenberg results were provided to PyClone-VI for copy number and purity estimation.
+
+To identify "trunk" variants frequently in the hypothetical common precursor cell (CPC) population, we leveraged patients with a branching evolution pattern in which all tumors had at least 25% exclusive mutations. *MYD88* L265P, *CREBBP* lysine acetyltransferase (KAT) domain missense mutations, *CD79B* Y197, *EZH2* Y646, and *NOTCH1/2* PEST domain truncating mutations were tallied separately from other mutations in each of those genes. Constrained genes were also identified in this subset of patients by identifying genes with exclusive mutations in two or more tumors from the same patient.
+
+
+### Statistics and plotting
+
+Categorical comparisons were made using Fisher's exact test and comparisons of continuous variables were made using Wilcoxon rank sum tests. Linear models were used when comparing two or more continuous variables. For outcomes, P-values were derived from pairwise log-rank tests or cox models adjusted for available clinical information including age and international prognostic index (IPI). All statistics were performed and plots generated in R version 4.1.
+
+### Data and Code Availability
+
+Complete sequencing data including WGS/WES, RNAseq, and targeted sequencing will be deposited at the European Genome/Phenome Archive (EGA) under study ID EGAS00001007053. All code for variant calling and phylogenetic analysis are available as part of LCR-modules (https://github.com/LCR-BCCRC/lcr-modules). An extensive repository of code for statistical analysis is available at https://github.com/LCR-BCCRC/DLBCL-tumor-evolution. 
+
+```{=latex}
+\end{runninglinenumbers}
+```
